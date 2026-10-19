@@ -1,0 +1,43 @@
+{
+ "schemaVersion": 1,
+ "countries": {
+  "AD": {
+   "version": "AD-2026-10-17",
+   "osmDate": "2026-10-17",
+   "source": "https://download.geofabrik.de/europe/andorra-latest.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "AD.map.mbtiles",
+     "bytes": 3428352,
+     "sha256": "91463ec87de72f424b78090398259b07fefd37a3dda8617c009bce335aafa743",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/AD-2026-10-17/AD.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "AD.valhalla.tar",
+     "bytes": 3092480,
+     "sha256": "35fe2d18cedc92061747be5836f6bf1431ba01ba3c5cb061eccd0214d9148a41",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/AD-2026-10-17/AD.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "AD.search.sqlite",
+     "bytes": 618496,
+     "sha256": "37cffffca299aca1ae6f0268a0de9b9dc73ade78fa91c85a2b7aa7c1bf13be6b",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/AD-2026-10-17/AD.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "AD.pois.sqlite",
+     "bytes": 217088,
+     "sha256": "4a0bd70090d62286f11edfe2c1a38bb031f0708b9e3728a286f64d2066a50bd5",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/AD-2026-10-17/AD.pois.sqlite"
+    }
+   ],
+   "country": "AD",
+   "title": "Andorra (toată țara)"
+  }
+ }
+}
