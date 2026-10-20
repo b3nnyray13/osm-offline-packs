@@ -38,6 +38,44 @@
    ],
    "country": "AD",
    "title": "Andorra (toată țara)"
+  },
+  "RO": {
+   "version": "RO-2026-10-18",
+   "osmDate": "2026-10-18",
+   "source": "https://download.geofabrik.de/europe/romania-latest.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "RO.map.mbtiles",
+     "bytes": 527114240,
+     "sha256": "ea8099cc857eb63f47b5fd6288bdbb6f23135f8f15ca54c086bc1abfabbb9c05",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/RO-2026-10-18/RO.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "RO.valhalla.tar",
+     "bytes": 392048640,
+     "sha256": "f243e21c1b2e5053c4e9ddfd391ab9fb4c85aba8f33c0f0f89a89a2fcc925030",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/RO-2026-10-18/RO.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "RO.search.sqlite",
+     "bytes": 229781504,
+     "sha256": "6b209853fa1cbb829582583cb7cb8355fdb9becdce45218daab698f65fc770a8",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/RO-2026-10-18/RO.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "RO.pois.sqlite",
+     "bytes": 13729792,
+     "sha256": "4daf9a93aa8cb3a83a598e108b8c73b8c063ccc96036c208e4500ddd56898775",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/RO-2026-10-18/RO.pois.sqlite"
+    }
+   ],
+   "country": "RO",
+   "title": "România (toată țara)"
   }
  }
 }
