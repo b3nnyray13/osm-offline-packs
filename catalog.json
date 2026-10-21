@@ -266,6 +266,44 @@
      "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-CE-2026-10-18/IT-CE.pois.sqlite"
     }
    ]
+  },
+  "ES-CN": {
+   "version": "ES-CN-2026-10-20",
+   "osmDate": "2026-10-20",
+   "country": "ES",
+   "title": "Spania Insulele Canare",
+   "source": "https://download.geofabrik.de/africa/canary-islands-latest.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "ES-CN.map.mbtiles",
+     "bytes": 49250304,
+     "sha256": "2ce1d041230dfc61dea96c4021df75eb81b39d3f81b79f6c5b9ace76d5e41f27",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-CN-2026-10-20/ES-CN.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "ES-CN.valhalla.tar",
+     "bytes": 74014720,
+     "sha256": "42ddd549c5b292a7a8f9e1d0f03276db38c0429c569a5299a3688f5912f84944",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-CN-2026-10-20/ES-CN.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "ES-CN.search.sqlite",
+     "bytes": 27971584,
+     "sha256": "c90156ed90fd33152a8b969912a87200afe5837ba355693e36b7d2fb703c0128",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-CN-2026-10-20/ES-CN.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "ES-CN.pois.sqlite",
+     "bytes": 4046848,
+     "sha256": "8795a283e09e6a8a26f812f4faf9b4b2094ad56cbf550e8c6788f9c87704aae8",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-CN-2026-10-20/ES-CN.pois.sqlite"
+    }
+   ]
   }
  }
 }
