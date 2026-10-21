@@ -39,79 +39,117 @@
    "country": "AD",
    "title": "Andorra (toată țara)"
   },
-  "RO": {
-   "version": "RO-2026-10-18",
-   "osmDate": "2026-10-18",
-   "source": "https://download.geofabrik.de/europe/romania-latest.osm.pbf",
+  "ES-CE": {
+   "version": "ES-CE-unknown",
+   "osmDate": "unknown",
+   "country": "ES",
+   "title": "Spania Centru (Madrid, Castilla-La Mancha, Extremadura)",
+   "source": "local:es-ce.osm.pbf",
    "license": "© OpenStreetMap contributors · ODbL 1.0",
    "parts": [
     {
      "kind": "map",
-     "file": "RO.map.mbtiles",
-     "bytes": 527114240,
-     "sha256": "ea8099cc857eb63f47b5fd6288bdbb6f23135f8f15ca54c086bc1abfabbb9c05",
-     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/RO-2026-10-18/RO.map.mbtiles"
+     "file": "ES-CE.map.mbtiles",
+     "bytes": 336539648,
+     "sha256": "91abb252c955350c36db5e8e0596e3c6d49dcb116f4e43dc93620232ca03bea8",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-CE-unknown/ES-CE.map.mbtiles"
     },
     {
      "kind": "routing",
-     "file": "RO.valhalla.tar",
-     "bytes": 392048640,
-     "sha256": "f243e21c1b2e5053c4e9ddfd391ab9fb4c85aba8f33c0f0f89a89a2fcc925030",
-     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/RO-2026-10-18/RO.valhalla.tar"
+     "file": "ES-CE.valhalla.tar",
+     "bytes": 766791680,
+     "sha256": "a9f91f0d3d63d1d9d83ce92d934d8a8aba2d9f50fb72c3e36e05408fa19f8330",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-CE-unknown/ES-CE.valhalla.tar"
     },
     {
      "kind": "search",
-     "file": "RO.search.sqlite",
-     "bytes": 229781504,
-     "sha256": "6b209853fa1cbb829582583cb7cb8355fdb9becdce45218daab698f65fc770a8",
-     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/RO-2026-10-18/RO.search.sqlite"
+     "file": "ES-CE.search.sqlite",
+     "bytes": 190640128,
+     "sha256": "c72c156a4fd6b8e1e0ebff01f3fc35067b97c7fd7ee866a9cc8068e885d94fac",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-CE-unknown/ES-CE.search.sqlite"
     },
     {
      "kind": "pois",
-     "file": "RO.pois.sqlite",
-     "bytes": 13729792,
-     "sha256": "4daf9a93aa8cb3a83a598e108b8c73b8c063ccc96036c208e4500ddd56898775",
-     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/RO-2026-10-18/RO.pois.sqlite"
+     "file": "ES-CE.pois.sqlite",
+     "bytes": 19365888,
+     "sha256": "a06a8b4691182ba9c451b8dd9474fa3a47dc490147dc31399ecb837be4f35bf3",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-CE-unknown/ES-CE.pois.sqlite"
     }
-   ],
-   "country": "RO",
-   "title": "România (toată țara)"
+   ]
   },
-  "IT-NV": {
-   "version": "IT-NV-2026-10-18",
-   "osmDate": "2026-10-18",
-   "country": "IT",
-   "title": "Italia Nord-Vest (Lombardia, Piemonte, Liguria, Valle d'Aosta)",
-   "source": "https://download.geofabrik.de/europe/italy/nord-ovest-latest.osm.pbf",
+  "ES-NE": {
+   "version": "ES-NE-unknown",
+   "osmDate": "unknown",
+   "country": "ES",
+   "title": "Spania Nord-Est (Catalonia, Aragon, Baleare)",
+   "source": "local:es-ne.osm.pbf",
    "license": "© OpenStreetMap contributors · ODbL 1.0",
    "parts": [
     {
      "kind": "map",
-     "file": "IT-NV.map.mbtiles",
-     "bytes": 470040576,
-     "sha256": "c4449d64489b82a537b00f984f1ab55fddfea2d3b86c7a6b3a4418e16a54516d",
-     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NV-2026-10-18/IT-NV.map.mbtiles"
+     "file": "ES-NE.map.mbtiles",
+     "bytes": 499552256,
+     "sha256": "661482c196ba9dd9a171da67a770a828a47a9a07f17a13167751a6f234087bc0",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-NE-unknown/ES-NE.map.mbtiles"
     },
     {
      "kind": "routing",
-     "file": "IT-NV.valhalla.tar",
-     "bytes": 1106626560,
-     "sha256": "9b60f90affda574cfacbdcb61acba141ada1c953ae1cc43af6c29ee18eac1143",
-     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NV-2026-10-18/IT-NV.valhalla.tar"
+     "file": "ES-NE.valhalla.tar",
+     "bytes": 880773120,
+     "sha256": "6c4fdb3676d1c1834c48093b5712924fd2079b3311b4a8b5b707efd896d0c912",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-NE-unknown/ES-NE.valhalla.tar"
     },
     {
      "kind": "search",
-     "file": "IT-NV.search.sqlite",
-     "bytes": 204603392,
-     "sha256": "56867865c53ab06aae83a6df282ea6e28604400e1b66fbc45eb0eb9e137c9532",
-     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NV-2026-10-18/IT-NV.search.sqlite"
+     "file": "ES-NE.search.sqlite",
+     "bytes": 296120320,
+     "sha256": "327af2765d0718a88b7f11718dfba24c965a7f104e7b7dcc75db93cc86105095",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-NE-unknown/ES-NE.search.sqlite"
     },
     {
      "kind": "pois",
-     "file": "IT-NV.pois.sqlite",
-     "bytes": 40148992,
-     "sha256": "cb581181528ceecd2844dea239b398c67a81c94c7891c55cd8a9b08041a870d0",
-     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NV-2026-10-18/IT-NV.pois.sqlite"
+     "file": "ES-NE.pois.sqlite",
+     "bytes": 27791360,
+     "sha256": "2eb6b7ae9a89d2ad391c33722a2c6f918fe6c9afb5a32b942c528804e0334acc",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-NE-unknown/ES-NE.pois.sqlite"
+    }
+   ]
+  },
+  "ES-NO": {
+   "version": "ES-NO-unknown",
+   "osmDate": "unknown",
+   "country": "ES",
+   "title": "Spania Nord (Galicia, Asturias, Cantabria, Țara Bascilor, Navarra, La Rioja, Castilla y León)",
+   "source": "local:es-no.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "ES-NO.map.mbtiles",
+     "bytes": 650518528,
+     "sha256": "d313126a4ba454349abc6b75d16e25b6f66c1ad8a71b4d323d744ddbeb4502a3",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-NO-unknown/ES-NO.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "ES-NO.valhalla.tar",
+     "bytes": 1030717440,
+     "sha256": "41fa877e4442f5e3ea671120ab2459fc33e8ed4bd3174e8cc342a67a4d1fa9cc",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-NO-unknown/ES-NO.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "ES-NO.search.sqlite",
+     "bytes": 315310080,
+     "sha256": "114e95f78f9c73313898a1b549dd15facac6593cfee440f7ad26132dd0def812",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-NO-unknown/ES-NO.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "ES-NO.pois.sqlite",
+     "bytes": 34287616,
+     "sha256": "c5a4e74fce3850db81a3c18bff58fa87e72492b389a7c22e2fd681b736d4c9b0",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-NO-unknown/ES-NO.pois.sqlite"
     }
    ]
   },
@@ -153,6 +191,44 @@
     }
    ]
   },
+  "IT-NV": {
+   "version": "IT-NV-2026-10-18",
+   "osmDate": "2026-10-18",
+   "country": "IT",
+   "title": "Italia Nord-Vest (Lombardia, Piemonte, Liguria, Valle d'Aosta)",
+   "source": "https://download.geofabrik.de/europe/italy/nord-ovest-latest.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "IT-NV.map.mbtiles",
+     "bytes": 470040576,
+     "sha256": "c4449d64489b82a537b00f984f1ab55fddfea2d3b86c7a6b3a4418e16a54516d",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NV-2026-10-18/IT-NV.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "IT-NV.valhalla.tar",
+     "bytes": 1106626560,
+     "sha256": "9b60f90affda574cfacbdcb61acba141ada1c953ae1cc43af6c29ee18eac1143",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NV-2026-10-18/IT-NV.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "IT-NV.search.sqlite",
+     "bytes": 204603392,
+     "sha256": "56867865c53ab06aae83a6df282ea6e28604400e1b66fbc45eb0eb9e137c9532",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NV-2026-10-18/IT-NV.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "IT-NV.pois.sqlite",
+     "bytes": 40148992,
+     "sha256": "cb581181528ceecd2844dea239b398c67a81c94c7891c55cd8a9b08041a870d0",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NV-2026-10-18/IT-NV.pois.sqlite"
+    }
+   ]
+  },
   "IT-SU": {
    "version": "IT-SU-2026-10-18",
    "osmDate": "2026-10-18",
@@ -188,6 +264,120 @@
      "bytes": 15761408,
      "sha256": "311f2d44e7c1f535cc7393ed32bf9b84052badab9f09721acfbe6f9e01ba6960",
      "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-SU-2026-10-18/IT-SU.pois.sqlite"
+    }
+   ]
+  },
+  "RO": {
+   "version": "RO-2026-10-18",
+   "osmDate": "2026-10-18",
+   "source": "https://download.geofabrik.de/europe/romania-latest.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "RO.map.mbtiles",
+     "bytes": 527114240,
+     "sha256": "ea8099cc857eb63f47b5fd6288bdbb6f23135f8f15ca54c086bc1abfabbb9c05",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/RO-2026-10-18/RO.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "RO.valhalla.tar",
+     "bytes": 392048640,
+     "sha256": "f243e21c1b2e5053c4e9ddfd391ab9fb4c85aba8f33c0f0f89a89a2fcc925030",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/RO-2026-10-18/RO.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "RO.search.sqlite",
+     "bytes": 229781504,
+     "sha256": "6b209853fa1cbb829582583cb7cb8355fdb9becdce45218daab698f65fc770a8",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/RO-2026-10-18/RO.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "RO.pois.sqlite",
+     "bytes": 13729792,
+     "sha256": "4daf9a93aa8cb3a83a598e108b8c73b8c063ccc96036c208e4500ddd56898775",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/RO-2026-10-18/RO.pois.sqlite"
+    }
+   ],
+   "country": "RO",
+   "title": "România (toată țara)"
+  },
+  "IT-NE": {
+   "version": "IT-NE-2026-10-18",
+   "osmDate": "2026-10-18",
+   "country": "IT",
+   "title": "Italia Nord-Est (Emilia-Romagna, Veneto, Friuli-Venezia Giulia, Trentino-Alto Adige)",
+   "source": "https://download.geofabrik.de/europe/italy/nord-est-latest.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "IT-NE.map.mbtiles",
+     "bytes": 489295872,
+     "sha256": "7de21f68f5959fa1b0ddb573df9b6de018ec24b0f3b791444db501215dee3391",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NE-2026-10-18/IT-NE.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "IT-NE.valhalla.tar",
+     "bytes": 1146664960,
+     "sha256": "8c24554c5db78cd0ad8f9e4b951ba43ac5022ca400136c1a2a5fa6cf2d0ec789",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NE-2026-10-18/IT-NE.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "IT-NE.search.sqlite",
+     "bytes": 475086848,
+     "sha256": "1ebc3a25718c279eec0af92b7b7bc3baefeb5e31a6239e683346dbd1deb4ddd9",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NE-2026-10-18/IT-NE.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "IT-NE.pois.sqlite",
+     "bytes": 31207424,
+     "sha256": "d5e12b1fe61511f6b8751244c22974edca55d1092995c51c7c1a2d029fcbc95f",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NE-2026-10-18/IT-NE.pois.sqlite"
+    }
+   ]
+  },
+  "IT-CE": {
+   "version": "IT-CE-2026-10-18",
+   "osmDate": "2026-10-18",
+   "country": "IT",
+   "title": "Italia Centru (Toscana, Lazio, Marche, Umbria)",
+   "source": "https://download.geofabrik.de/europe/italy/centro-latest.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "IT-CE.map.mbtiles",
+     "bytes": 334962688,
+     "sha256": "1f4f4bd835f3901a5c5d83a218527738dd439d4b2b4802c6e6fbe8c6967b11f5",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-CE-2026-10-18/IT-CE.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "IT-CE.valhalla.tar",
+     "bytes": 803205120,
+     "sha256": "2863f8720ddad00d978d4e2bd6f7513cce111297844b378ee0ab7fbecfa067be",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-CE-2026-10-18/IT-CE.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "IT-CE.search.sqlite",
+     "bytes": 141967360,
+     "sha256": "c06d1a7fb71ba614daeedc93ea9c5978a8096f619ff875c7730539cf2b766315",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-CE-2026-10-18/IT-CE.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "IT-CE.pois.sqlite",
+     "bytes": 22511616,
+     "sha256": "5e5d48f6dd9325cae7ba612c5c9c8adc6f0df80423c1228d13b98e6394c2db50",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-CE-2026-10-18/IT-CE.pois.sqlite"
     }
    ]
   }
