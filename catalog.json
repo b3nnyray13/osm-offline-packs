@@ -76,6 +76,44 @@
    ],
    "country": "RO",
    "title": "România (toată țara)"
+  },
+  "IT-NV": {
+   "version": "IT-NV-2026-10-18",
+   "osmDate": "2026-10-18",
+   "country": "IT",
+   "title": "Italia Nord-Vest (Lombardia, Piemonte, Liguria, Valle d'Aosta)",
+   "source": "https://download.geofabrik.de/europe/italy/nord-ovest-latest.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "IT-NV.map.mbtiles",
+     "bytes": 470040576,
+     "sha256": "c4449d64489b82a537b00f984f1ab55fddfea2d3b86c7a6b3a4418e16a54516d",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NV-2026-10-18/IT-NV.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "IT-NV.valhalla.tar",
+     "bytes": 1106626560,
+     "sha256": "9b60f90affda574cfacbdcb61acba141ada1c953ae1cc43af6c29ee18eac1143",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NV-2026-10-18/IT-NV.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "IT-NV.search.sqlite",
+     "bytes": 204603392,
+     "sha256": "56867865c53ab06aae83a6df282ea6e28604400e1b66fbc45eb0eb9e137c9532",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NV-2026-10-18/IT-NV.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "IT-NV.pois.sqlite",
+     "bytes": 40148992,
+     "sha256": "cb581181528ceecd2844dea239b398c67a81c94c7891c55cd8a9b08041a870d0",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NV-2026-10-18/IT-NV.pois.sqlite"
+    }
+   ]
   }
  }
 }
