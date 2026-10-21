@@ -152,6 +152,44 @@
      "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-IS-2026-10-18/IT-IS.pois.sqlite"
     }
    ]
+  },
+  "IT-SU": {
+   "version": "IT-SU-2026-10-18",
+   "osmDate": "2026-10-18",
+   "country": "IT",
+   "title": "Italia Sud (Campania, Puglia, Calabria, Basilicata, Abruzzo, Molise)",
+   "source": "https://download.geofabrik.de/europe/italy/sud-latest.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "IT-SU.map.mbtiles",
+     "bytes": 339300352,
+     "sha256": "b84c5c0f86d9db2bea2cf55859fc990646c56396db6b79c8f62921f2c8506d9b",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-SU-2026-10-18/IT-SU.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "IT-SU.valhalla.tar",
+     "bytes": 678246400,
+     "sha256": "719d5ef47e8f2c111de9614acc1d65becc9a9fc5acbe2461016ccfc6502f7666",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-SU-2026-10-18/IT-SU.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "IT-SU.search.sqlite",
+     "bytes": 71704576,
+     "sha256": "2e9e2bfd647486be548e281018ef5d21b65e89c5627b229f69628cf212c6d23a",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-SU-2026-10-18/IT-SU.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "IT-SU.pois.sqlite",
+     "bytes": 15761408,
+     "sha256": "311f2d44e7c1f535cc7393ed32bf9b84052badab9f09721acfbe6f9e01ba6960",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-SU-2026-10-18/IT-SU.pois.sqlite"
+    }
+   ]
   }
  }
 }
