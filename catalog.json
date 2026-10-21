@@ -114,6 +114,44 @@
      "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-NV-2026-10-18/IT-NV.pois.sqlite"
     }
    ]
+  },
+  "IT-IS": {
+   "version": "IT-IS-2026-10-18",
+   "osmDate": "2026-10-18",
+   "country": "IT",
+   "title": "Italia Insule (Sicilia, Sardegna)",
+   "source": "https://download.geofabrik.de/europe/italy/isole-latest.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "IT-IS.map.mbtiles",
+     "bytes": 181825536,
+     "sha256": "6c7e73d25b1328b32784f31bc4d849d8ca93acec9f3b923e17ccb8fae7292d79",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-IS-2026-10-18/IT-IS.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "IT-IS.valhalla.tar",
+     "bytes": 544542720,
+     "sha256": "e697f39b85cb982401d77d5088c420c73f6a12a272114d7756db23634193df68",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-IS-2026-10-18/IT-IS.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "IT-IS.search.sqlite",
+     "bytes": 160034816,
+     "sha256": "32cfc15a9185e99022cba87d39b396b30fd7f7d0797075a591d70a453fa3fdbf",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-IS-2026-10-18/IT-IS.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "IT-IS.pois.sqlite",
+     "bytes": 8691712,
+     "sha256": "837967fbdfdd7734611800e2fc1f1bd8d4f8b605220e4c1be93305459637ce56",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IT-IS-2026-10-18/IT-IS.pois.sqlite"
+    }
+   ]
   }
  }
 }
