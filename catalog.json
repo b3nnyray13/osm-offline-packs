@@ -304,6 +304,196 @@
      "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-CN-2026-10-20/ES-CN.pois.sqlite"
     }
    ]
+  },
+  "ES-NO": {
+   "version": "ES-NO-2026-10-20",
+   "osmDate": "2026-10-20",
+   "country": "ES",
+   "title": "Spania Nord (Galicia, Asturias, Cantabria, Țara Bascilor, Navarra, La Rioja, Castilla y León)",
+   "source": "local:es-no.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "ES-NO.map.mbtiles",
+     "bytes": 650518528,
+     "sha256": "d313126a4ba454349abc6b75d16e25b6f66c1ad8a71b4d323d744ddbeb4502a3",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-NO-2026-10-20/ES-NO.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "ES-NO.valhalla.tar",
+     "bytes": 1030717440,
+     "sha256": "41fa877e4442f5e3ea671120ab2459fc33e8ed4bd3174e8cc342a67a4d1fa9cc",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-NO-2026-10-20/ES-NO.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "ES-NO.search.sqlite",
+     "bytes": 315310080,
+     "sha256": "114e95f78f9c73313898a1b549dd15facac6593cfee440f7ad26132dd0def812",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-NO-2026-10-20/ES-NO.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "ES-NO.pois.sqlite",
+     "bytes": 34287616,
+     "sha256": "c5a4e74fce3850db81a3c18bff58fa87e72492b389a7c22e2fd681b736d4c9b0",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-NO-2026-10-20/ES-NO.pois.sqlite"
+    }
+   ]
+  },
+  "ES-NE": {
+   "version": "ES-NE-2026-10-20",
+   "osmDate": "2026-10-20",
+   "country": "ES",
+   "title": "Spania Nord-Est (Catalonia, Aragon, Baleare)",
+   "source": "local:es-ne.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "ES-NE.map.mbtiles",
+     "bytes": 499552256,
+     "sha256": "661482c196ba9dd9a171da67a770a828a47a9a07f17a13167751a6f234087bc0",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-NE-2026-10-20/ES-NE.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "ES-NE.valhalla.tar",
+     "bytes": 880773120,
+     "sha256": "6c4fdb3676d1c1834c48093b5712924fd2079b3311b4a8b5b707efd896d0c912",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-NE-2026-10-20/ES-NE.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "ES-NE.search.sqlite",
+     "bytes": 296120320,
+     "sha256": "327af2765d0718a88b7f11718dfba24c965a7f104e7b7dcc75db93cc86105095",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-NE-2026-10-20/ES-NE.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "ES-NE.pois.sqlite",
+     "bytes": 27791360,
+     "sha256": "2eb6b7ae9a89d2ad391c33722a2c6f918fe6c9afb5a32b942c528804e0334acc",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-NE-2026-10-20/ES-NE.pois.sqlite"
+    }
+   ]
+  },
+  "ES-CE": {
+   "version": "ES-CE-2026-10-20",
+   "osmDate": "2026-10-20",
+   "country": "ES",
+   "title": "Spania Centru (Madrid, Castilla-La Mancha, Extremadura)",
+   "source": "local:es-ce.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "ES-CE.map.mbtiles",
+     "bytes": 336539648,
+     "sha256": "91abb252c955350c36db5e8e0596e3c6d49dcb116f4e43dc93620232ca03bea8",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-CE-2026-10-20/ES-CE.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "ES-CE.valhalla.tar",
+     "bytes": 766791680,
+     "sha256": "a9f91f0d3d63d1d9d83ce92d934d8a8aba2d9f50fb72c3e36e05408fa19f8330",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-CE-2026-10-20/ES-CE.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "ES-CE.search.sqlite",
+     "bytes": 190640128,
+     "sha256": "c72c156a4fd6b8e1e0ebff01f3fc35067b97c7fd7ee866a9cc8068e885d94fac",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-CE-2026-10-20/ES-CE.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "ES-CE.pois.sqlite",
+     "bytes": 19365888,
+     "sha256": "a06a8b4691182ba9c451b8dd9474fa3a47dc490147dc31399ecb837be4f35bf3",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-CE-2026-10-20/ES-CE.pois.sqlite"
+    }
+   ]
+  },
+  "ES-ES": {
+   "version": "ES-ES-2026-10-20",
+   "osmDate": "2026-10-20",
+   "country": "ES",
+   "title": "Spania Est (Valencia, Murcia)",
+   "source": "local:es-es.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "ES-ES.map.mbtiles",
+     "bytes": 190599168,
+     "sha256": "d0816476f1a3639459fc837ed64409e181678ac1f0509ebbe04aee1ce4320ee9",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-ES-2026-10-20/ES-ES.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "ES-ES.valhalla.tar",
+     "bytes": 424202240,
+     "sha256": "b1f5fe730ce7016494b5378659c3abbbe4a95d3467365433823b617e4a9f2591",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-ES-2026-10-20/ES-ES.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "ES-ES.search.sqlite",
+     "bytes": 107573248,
+     "sha256": "49a3c823ea3e3bad30ccc5d48baf805fb3aee75467750e0c5a117034ca976fc4",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-ES-2026-10-20/ES-ES.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "ES-ES.pois.sqlite",
+     "bytes": 10989568,
+     "sha256": "4b5134220d66d45c5f0fd4c21e8da760dd8632fcbb1e4a0ebca53e9f7a5601ce",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-ES-2026-10-20/ES-ES.pois.sqlite"
+    }
+   ]
+  },
+  "ES-SU": {
+   "version": "ES-SU-2026-10-20",
+   "osmDate": "2026-10-20",
+   "country": "ES",
+   "title": "Spania Sud (Andaluzia, Ceuta, Melilla)",
+   "source": "local:es-su.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "ES-SU.map.mbtiles",
+     "bytes": 280035328,
+     "sha256": "f3f61b5d38851261cd8a2799b32cff880acce6826ce78eef7c608e318844034c",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-SU-2026-10-20/ES-SU.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "ES-SU.valhalla.tar",
+     "bytes": 427304960,
+     "sha256": "e5be4a73c0e5c295ed8650429b31ae6f456bd5fccf7bbd83b56c028b9e5fb4e2",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-SU-2026-10-20/ES-SU.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "ES-SU.search.sqlite",
+     "bytes": 116695040,
+     "sha256": "2fe7e0b66c9b0d95503d6da32f766efdd40d6c3eff9fb7a851bcd1793e991806",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-SU-2026-10-20/ES-SU.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "ES-SU.pois.sqlite",
+     "bytes": 14139392,
+     "sha256": "feed2637eafa11ff87a8668cd67909629b73c0b08336d0161ab2dc4822de0c04",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-SU-2026-10-20/ES-SU.pois.sqlite"
+    }
+   ]
   }
  }
 }
