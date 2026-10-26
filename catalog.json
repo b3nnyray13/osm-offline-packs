@@ -494,6 +494,158 @@
      "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ES-SU-2026-10-20/ES-SU.pois.sqlite"
     }
    ]
+  },
+  "FR-SV": {
+   "version": "FR-SV-2026-10-20",
+   "osmDate": "2026-10-20",
+   "country": "FR",
+   "title": "Franța Sud-Vest (Nouvelle-Aquitaine, Occitania vest)",
+   "source": "local:fr-sv.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "FR-SV.map.mbtiles",
+     "bytes": 686018560,
+     "sha256": "d08a9fd12cd7e9b73d87d8a14fcf94d6a125b1e43bc7b063e6168a520fcbc5f3",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FR-SV-2026-10-20/FR-SV.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "FR-SV.valhalla.tar",
+     "bytes": 939622400,
+     "sha256": "4b0eeb169e4e840e8691b68628aa625e6fe541aca8ef4fd4101b2da8395a7b96",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FR-SV-2026-10-20/FR-SV.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "FR-SV.search.sqlite",
+     "bytes": 315379712,
+     "sha256": "f29523d9fcbe954c15a1a35f67c00e74505e8398650f5f78c50b2b59675da7c0",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FR-SV-2026-10-20/FR-SV.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "FR-SV.pois.sqlite",
+     "bytes": 27848704,
+     "sha256": "beb0e9cfb6579beeff27d60b1855214aafa29c243bfa49f126d3de07dc92ad9d",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FR-SV-2026-10-20/FR-SV.pois.sqlite"
+    }
+   ]
+  },
+  "FR-NE": {
+   "version": "FR-NE-2026-10-20",
+   "osmDate": "2026-10-20",
+   "country": "FR",
+   "title": "Franța Nord-Est (Île-de-France, Hauts-de-France, Grand Est, Burgundia)",
+   "source": "local:fr-ne.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "FR-NE.map.mbtiles",
+     "bytes": 1107599360,
+     "sha256": "a225dc2f81dd28cc951e978708cdc8334e4931dfd7f6532b7e3e6aab15206521",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FR-NE-2026-10-20/FR-NE.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "FR-NE.valhalla.tar",
+     "bytes": 1675632640,
+     "sha256": "20362d864e91b307d1e9b1beb27c75f67f912b598524e7ee0f4cf00d2e9a52d2",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FR-NE-2026-10-20/FR-NE.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "FR-NE.search.sqlite",
+     "bytes": 582012928,
+     "sha256": "097585f164fe5ae8a9301eedca43188f910941d05e90e996128964425b2886ae",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FR-NE-2026-10-20/FR-NE.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "FR-NE.pois.sqlite",
+     "bytes": 74260480,
+     "sha256": "9a64404c303b4eaf16925b5734da9e42d0e8c09945936e84fff317e31b595121",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FR-NE-2026-10-20/FR-NE.pois.sqlite"
+    }
+   ]
+  },
+  "FR-SE": {
+   "version": "FR-SE-2026-10-20",
+   "osmDate": "2026-10-20",
+   "country": "FR",
+   "title": "Franța Sud-Est (Auvergne-Rhône-Alpes, Provence-Coasta de Azur, Occitania est, Corsica)",
+   "source": "local:fr-se.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "FR-SE.map.mbtiles",
+     "bytes": 1077403648,
+     "sha256": "196773eb2931289091a0d32e07de76d0ee6420fbe253f556988c9edb5767e42f",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FR-SE-2026-10-20/FR-SE.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "FR-SE.valhalla.tar",
+     "bytes": 1465507840,
+     "sha256": "5fc54ea89bc371740e7c35f2db5e18c7d8706fdb695208dff80fc511ba7daa18",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FR-SE-2026-10-20/FR-SE.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "FR-SE.search.sqlite",
+     "bytes": 465350656,
+     "sha256": "68b2535ddc61d0a30955e18847587302a79c81f75ef70410b5b705477377daab",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FR-SE-2026-10-20/FR-SE.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "FR-SE.pois.sqlite",
+     "bytes": 60203008,
+     "sha256": "a10771e61d78a2f93d4839e9b680a0fb96a427f573eca98e2f7168ea73ee1aa2",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FR-SE-2026-10-20/FR-SE.pois.sqlite"
+    }
+   ]
+  },
+  "FR-NO": {
+   "version": "FR-NO-2026-10-20",
+   "osmDate": "2026-10-20",
+   "country": "FR",
+   "title": "Franța Nord-Vest (Bretania, Normandia, Pays de la Loire, Centre)",
+   "source": "local:fr-no.osm.pbf",
+   "license": "© OpenStreetMap contributors · ODbL 1.0",
+   "parts": [
+    {
+     "kind": "map",
+     "file": "FR-NO.map.mbtiles",
+     "bytes": 973340672,
+     "sha256": "6e94f242b9eced576b26200144cbd89900476fad3a629c2bbd1481315ce325f5",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FR-NO-2026-10-20/FR-NO.map.mbtiles"
+    },
+    {
+     "kind": "routing",
+     "file": "FR-NO.valhalla.tar",
+     "bytes": 1309224960,
+     "sha256": "a40a669a487eba615f72c953711982dcea1648790ed15a0fb25c2b6851ceba94",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FR-NO-2026-10-20/FR-NO.valhalla.tar"
+    },
+    {
+     "kind": "search",
+     "file": "FR-NO.search.sqlite",
+     "bytes": 422809600,
+     "sha256": "da2b40c01cbe796438fe25b0fb9b6c6b7c2b8c3d775f3c108c0ce8dbec434aad",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FR-NO-2026-10-20/FR-NO.search.sqlite"
+    },
+    {
+     "kind": "pois",
+     "file": "FR-NO.pois.sqlite",
+     "bytes": 47362048,
+     "sha256": "d4b2926e69251e2fd17114506c5b7364196d8443c77d478a8e03aa90464ad716",
+     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FR-NO-2026-10-20/FR-NO.pois.sqlite"
+    }
+   ]
   }
  }
 }
