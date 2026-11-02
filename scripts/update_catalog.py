@@ -16,13 +16,17 @@ def main():
     radar = os.path.join(receipts, "radars-europe.receipt.json")
     if os.path.exists(radar):
         r = json.load(open(radar))
-        catalog["radars"] = {"date": r["date"], "cameras": r["cameras"], "file": r["file"], "bytes": r["bytes"],
+        catalog["radars"] = {"date": r["date"], "cameras": r["cameras"], "hazards": r.get("hazards", 0), "file": r["file"], "bytes": r["bytes"],
                              "sha256": r["sha256"], "url": "%s/radars/%s" % (BASE, r["file"]), "license": r["license"]}
     for path in glob.glob(os.path.join(receipts, "*-restrictions.receipt.json")):
         r = json.load(open(path))
         iso = r["country"]
+        if r.get("bytes", 0) <= 0:
+            continue
         part = {"kind": "restrictions", "file": "%s-restrictions.zip" % iso, "bytes": r["bytes"], "sha256": r["sha256"],
                 "url": "%s/restrictions-%s/%s-restrictions.zip" % (BASE, iso, iso), "osmDate": r["pbfModified"]}
+        # Every European country has its pack here, also those without an offline map.
+        catalog.setdefault("restrictions", {})[iso] = part
         for key, entry in catalog["countries"].items():
             if (entry.get("country") or key[:2]) != iso:
                 continue

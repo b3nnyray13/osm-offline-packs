@@ -16,8 +16,8 @@ Two datasets are rebuilt automatically by GitHub Actions:
 
 | File | Content | Schedule |
 |---|---|---|
-| `ISO-restrictions.zip` | Vehicle restriction tiles (height, weight, width, length, axle load, access) for one country, 0.25° JSON tiles | Weekly, from the Geofabrik extract (`scripts/build_restriction_pack.py`) |
-| `radars-europe.geojson.gz` | Every `highway=speed_camera` node in Europe; a camera deleted in OSM is gone from the next list | Daily, from the current OSM planet (`scripts/build_radars.py`) |
+| `ISO-restrictions.zip` | Vehicle restriction tiles (height, weight, width, length, axle load, access) for every European country, 0.25° JSON tiles | Weekly, from the Geofabrik extracts (`scripts/build_restriction_pack.py`) |
+| `radars-europe.geojson.gz` | Every `highway=speed_camera` and `hazard=*` node in Europe; a point deleted in OSM is gone from the next list | Daily, from the current OSM planet (`scripts/build_radars.py`) |
 
 ## Data and license
 

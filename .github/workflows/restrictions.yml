@@ -18,13 +18,53 @@ jobs:
     timeout-minutes: 350
     strategy:
       fail-fast: false
-      max-parallel: 2
+      max-parallel: 6
       matrix:
         include:
-          - { iso: RO, extract: europe/romania }
-          - { iso: IT, extract: europe/italy }
-          - { iso: ES, extract: europe/spain }
+          - { iso: AL, extract: europe/albania }
+          - { iso: AD, extract: europe/andorra }
+          - { iso: AT, extract: europe/austria }
+          - { iso: BY, extract: europe/belarus }
+          - { iso: BE, extract: europe/belgium }
+          - { iso: BA, extract: europe/bosnia-herzegovina }
+          - { iso: BG, extract: europe/bulgaria }
+          - { iso: HR, extract: europe/croatia }
+          - { iso: CY, extract: europe/cyprus }
+          - { iso: CZ, extract: europe/czech-republic }
+          - { iso: DK, extract: europe/denmark }
+          - { iso: EE, extract: europe/estonia }
+          - { iso: FI, extract: europe/finland }
           - { iso: FR, extract: europe/france }
+          - { iso: DE, extract: europe/germany }
+          - { iso: GB, extract: europe/great-britain }
+          - { iso: GR, extract: europe/greece }
+          - { iso: HU, extract: europe/hungary }
+          - { iso: IS, extract: europe/iceland }
+          - { iso: IE, extract: europe/ireland-and-northern-ireland }
+          - { iso: IT, extract: europe/italy }
+          - { iso: XK, extract: europe/kosovo }
+          - { iso: LV, extract: europe/latvia }
+          - { iso: LI, extract: europe/liechtenstein }
+          - { iso: LT, extract: europe/lithuania }
+          - { iso: LU, extract: europe/luxembourg }
+          - { iso: MK, extract: europe/macedonia }
+          - { iso: MT, extract: europe/malta }
+          - { iso: MD, extract: europe/moldova }
+          - { iso: MC, extract: europe/monaco }
+          - { iso: ME, extract: europe/montenegro }
+          - { iso: NL, extract: europe/netherlands }
+          - { iso: "NO", extract: europe/norway }
+          - { iso: PL, extract: europe/poland }
+          - { iso: PT, extract: europe/portugal }
+          - { iso: RO, extract: europe/romania }
+          - { iso: RS, extract: europe/serbia }
+          - { iso: SK, extract: europe/slovakia }
+          - { iso: SI, extract: europe/slovenia }
+          - { iso: ES, extract: europe/spain }
+          - { iso: SE, extract: europe/sweden }
+          - { iso: CH, extract: europe/switzerland }
+          - { iso: TR, extract: europe/turkey }
+          - { iso: UA, extract: europe/ukraine }
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

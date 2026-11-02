@@ -1,8 +1,8 @@
-"""Daily speed-camera list for Europe from OpenStreetMap (ODbL), as GeoJSON.
+"""Daily speed cameras and road hazards for Europe from OpenStreetMap (ODbL), as one GeoJSON.
 
-Source: every node tagged highway=speed_camera in the current OSM planet, read from the public QLever SPARQL
-endpoint (updated from OSM continuously). A camera removed in OSM is absent from the next day's list, so a
-consumer that replaces its copy each day drops cameras that no longer exist.
+Source: every node tagged highway=speed_camera or hazard=* in the current OSM planet, read from the public QLever
+SPARQL endpoint (updated from OSM continuously). A point removed in OSM is absent from the next day's list, so a
+consumer that replaces its copy each day drops cameras and hazards that no longer exist.
 
 Usage: python scripts/build_radars.py <out_dir>
 Output: <out_dir>/radars-europe.geojson.gz and <out_dir>/radars-europe.receipt.json
@@ -16,6 +16,9 @@ PREFIXES = "PREFIX geo: <http://www.opengis.net/ont/geosparql#>\nPREFIX osmkey: 
 # One small query per attribute: a single query with OPTIONALs takes minutes, these take seconds each.
 POSITIONS = PREFIXES + 'SELECT ?n ?g WHERE { ?n osmkey:highway "speed_camera" . ?n geo:hasGeometry/geo:asWKT ?g . }'
 ATTRIBUTE = PREFIXES + 'SELECT ?n ?v WHERE { ?n osmkey:highway "speed_camera" . ?n osmkey:%s ?v . }'
+# Permanent road hazards (hazard=curve, animal_crossing, falling_rocks, school_zone …), nodes only.
+HAZARDS = PREFIXES + ('SELECT ?n ?v ?g WHERE { ?n osmkey:hazard ?v . ?n geo:hasGeometry/geo:asWKT ?g . '
+                      'FILTER(STRSTARTS(STR(?n), "https://www.openstreetmap.org/node/")) }')
 
 
 def fetch(query, tries=4):
@@ -65,12 +68,25 @@ def main():
                 f["properties"][key] = literal(val)
     if len(features) < 10000:  # a broken answer must never replace the previous day's list
         raise SystemExit("only %d cameras; keeping the previous list" % len(features))
-    body = json.dumps({"type": "FeatureCollection", "features": list(features.values())}, ensure_ascii=False, separators=(",", ":"))
+    hazards = []
+    for node, value, wkt in fetch(HAZARDS)["res"]:
+        node, value, wkt = literal(node) or "", literal(value) or "", literal(wkt) or ""
+        if not value or not wkt.upper().startswith("POINT("):
+            continue
+        lon, lat = (float(x) for x in wkt[6:-1].split()[:2])
+        if not (SOUTH <= lat <= NORTH and WEST <= lon <= EAST):
+            continue
+        hazards.append({"type": "Feature",
+                        "properties": {"hazard": value, "owner_kind": "HAZARD", "name": value, "osm_id": "node/" + node.rsplit("/", 1)[1], "verified": today},
+                        "geometry": {"type": "Point", "coordinates": [round(lon, 6), round(lat, 6)]}})
+    if len(hazards) < 3000:
+        raise SystemExit("only %d hazards; keeping the previous list" % len(hazards))
+    body = json.dumps({"type": "FeatureCollection", "features": list(features.values()) + hazards}, ensure_ascii=False, separators=(",", ":"))
     path = os.path.join(out, "radars-europe.geojson.gz")
     with gzip.GzipFile(path, "wb", mtime=0) as f:
         f.write(body.encode("utf-8"))
     raw = open(path, "rb").read()
-    receipt = {"date": time.strftime("%Y-%m-%d", time.gmtime()), "cameras": len(features), "bytes": len(raw),
+    receipt = {"date": time.strftime("%Y-%m-%d", time.gmtime()), "cameras": len(features), "hazards": len(hazards), "bytes": len(raw),
                "sha256": hashlib.sha256(raw).hexdigest(), "file": "radars-europe.geojson.gz",
                "license": "© OpenStreetMap contributors, ODbL 1.0"}
     json.dump(receipt, open(os.path.join(out, "radars-europe.receipt.json"), "w"), indent=1)
