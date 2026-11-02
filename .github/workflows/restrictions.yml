@@ -1,0 +1,74 @@
+name: Weekly vehicle restrictions
+
+on:
+  schedule:
+    - cron: "0 1 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        include:
+          - { iso: RO, extract: europe/romania }
+          - { iso: IT, extract: europe/italy }
+          - { iso: ES, extract: europe/spain }
+          - { iso: FR, extract: europe/france }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Free disk space
+        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+      - name: Download the OpenStreetMap extract
+        run: curl -fsSL --retry 5 -o country.osm.pbf "https://download.geofabrik.de/${{ matrix.extract }}-latest.osm.pbf"
+      - name: Build
+        run: |
+          pip install osmium
+          python scripts/build_restriction_pack.py country.osm.pbf ${{ matrix.iso }} out
+          rm country.osm.pbf
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag=restrictions-${{ matrix.iso }}
+          gh release view $tag >/dev/null 2>&1 || gh release create $tag --title "Vehicle restrictions ${{ matrix.iso }}" --notes "Vehicle restriction tiles from OpenStreetMap (Geofabrik extract), rebuilt every week. © OpenStreetMap contributors, ODbL 1.0."
+          gh release upload $tag out/${{ matrix.iso }}-restrictions.zip --clobber
+      - uses: actions/upload-artifact@v4
+        with:
+          name: receipt-${{ matrix.iso }}
+          path: out/${{ matrix.iso }}-restrictions.receipt.json
+          retention-days: 3
+
+  catalog:
+    needs: build
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/download-artifact@v4
+        with:
+          path: receipts
+          merge-multiple: true
+      - name: Update catalog
+        run: |
+          python scripts/update_catalog.py receipts
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog.json
+          git diff --cached --quiet || (git commit -m "Vehicle restrictions $(date -u +%F)" && git push)

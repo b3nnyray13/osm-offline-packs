@@ -12,6 +12,13 @@ Offline packs built from OpenStreetMap data, one per country or region. Each pac
 `catalog.json` lists every published pack with its release URL, size and SHA-256. Files larger than
 2 GB are split into numbered parts (`.000`, `.001`, …) to be joined in order.
 
+Two datasets are rebuilt automatically by GitHub Actions:
+
+| File | Content | Schedule |
+|---|---|---|
+| `ISO-restrictions.zip` | Vehicle restriction tiles (height, weight, width, length, axle load, access) for one country, 0.25° JSON tiles | Weekly, from the Geofabrik extract (`scripts/build_restriction_pack.py`) |
+| `radars-europe.geojson.gz` | Every `highway=speed_camera` node in Europe; a camera deleted in OSM is gone from the next list | Daily, from the current OSM planet (`scripts/build_radars.py`) |
+
 ## Data and license
 
 All data comes from [OpenStreetMap](https://www.openstreetmap.org/copyright) extracts by

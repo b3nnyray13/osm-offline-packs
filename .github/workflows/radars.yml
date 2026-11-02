@@ -1,0 +1,39 @@
+name: Daily speed cameras
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog
+  cancel-in-progress: false
+
+jobs:
+  radars:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build the list from OpenStreetMap
+        run: python scripts/build_radars.py out
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view radars >/dev/null 2>&1 || gh release create radars --title "Speed cameras (daily)" --notes "Speed cameras in Europe from OpenStreetMap, rebuilt every day. © OpenStreetMap contributors, ODbL 1.0."
+          gh release upload radars out/radars-europe.geojson.gz --clobber
+      - name: Update catalog
+        run: |
+          git pull --ff-only
+          python scripts/update_catalog.py out
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog.json
+          git diff --cached --quiet || (git commit -m "Speed cameras $(date -u +%F)" && git push)
