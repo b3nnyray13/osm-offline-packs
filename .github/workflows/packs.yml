@@ -31,8 +31,26 @@ jobs:
           else m=$(jq -c --arg w "$want" '($w | split(",")) as $ids | map(select(.id as $i | $ids | index($i)))' regions.json); fi
           echo "matrix=$m" >> "$GITHUB_OUTPUT"
 
+  # Planetiler's water, Natural Earth and lake data: downloaded once with retries, shared by every pack through the cache
+  # (42 parallel downloads of 1 GB timed out on the first run).
+  sources:
+    runs-on: ubuntu-latest
+    steps:
+      - id: cache
+        uses: actions/cache@v4
+        with:
+          path: sources
+          key: planetiler-sources-v1
+      - if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p sources && cd sources
+          curl -fL --retry 10 --retry-delay 30 --retry-all-errors -o water-polygons-split-3857.zip https://osmdata.openstreetmap.de/download/water-polygons-split-3857.zip
+          curl -fL --retry 10 --retry-delay 30 --retry-all-errors -o natural_earth_vector.sqlite.zip https://naciscdn.org/naturalearth/packages/natural_earth_vector.sqlite.zip
+          curl -fL --retry 10 --retry-delay 30 --retry-all-errors -o lake_centerline.shp.zip https://github.com/acalcutt/osm-lakelines/releases/download/v12/lake_centerline.shp.zip
+          ls -la
+
   build:
-    needs: prepare
+    needs: [prepare, sources]
     runs-on: ubuntu-latest
     timeout-minutes: 355
     strategy:
@@ -58,11 +76,16 @@ jobs:
           sudo apt-get update -q && sudo apt-get install -y -q osmium-tool
           pip install pyvalhalla==3.6.3
           curl -fsSL --retry 5 -o work/planetiler.jar --create-dirs https://github.com/onthegomap/planetiler/releases/download/v0.10.2/planetiler.jar
+      - uses: actions/cache/restore@v4
+        with:
+          path: sources
+          key: planetiler-sources-v1
+          fail-on-cache-miss: true
       - name: Build
         id: build
         env:
           PACK_TITLE: ${{ matrix.title }}
-        run: python scripts/build_offline_pack.py ${{ matrix.id }} work ${{ matrix.extracts }}
+        run: mkdir -p work/data && mv sources work/data/sources && python scripts/build_offline_pack.py ${{ matrix.id }} work ${{ matrix.extracts }}
       - name: Publish
         env:
           GH_TOKEN: ${{ github.token }}
