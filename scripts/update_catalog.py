@@ -1,7 +1,7 @@
-"""Adds the newest radar list and restriction packs to catalog.json.
+"""Adds the newest radar list, offline packs and restriction packs to catalog.json.
 
 Usage: python scripts/update_catalog.py <receipts_dir>
-Reads radars-europe.receipt.json and <ISO>-restrictions.receipt.json from <receipts_dir>. Each restriction pack is one
+Reads radars-europe.receipt.json, <ID>.entry.json and <ISO>-restrictions.receipt.json from <receipts_dir>. Each restriction pack is one
 file per country, listed as the "restrictions" part of every pack (country or region) of that country.
 """
 import glob, json, os, sys
@@ -18,6 +18,13 @@ def main():
         r = json.load(open(radar))
         catalog["radars"] = {"date": r["date"], "cameras": r["cameras"], "hazards": r.get("hazards", 0), "file": r["file"], "bytes": r["bytes"],
                              "sha256": r["sha256"], "url": "%s/radars/%s" % (BASE, r["file"]), "license": r["license"]}
+    for path in glob.glob(os.path.join(receipts, "*.entry.json")):
+        e = json.load(open(path, encoding="utf-8"))
+        old = catalog["countries"].get(e["id"], {})
+        e["parts"] += [p for p in old.get("parts", []) if p.get("kind") == "restrictions"] or \
+            ([catalog["restrictions"][e["country"]]] if e["country"] in catalog.get("restrictions", {}) else [])
+        catalog["countries"][e.pop("id")] = e
+    catalog["countries"] = dict(sorted(catalog["countries"].items()))
     for path in glob.glob(os.path.join(receipts, "*-restrictions.receipt.json")):
         r = json.load(open(path))
         iso = r["country"]
