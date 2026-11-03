@@ -6,7 +6,8 @@ tiles of 0.25 degrees: heavy/<s_w_n_e>.json and car/<s_w_n_e>.json.
 
 Usage: python scripts/build_restriction_pack.py <country.osm.pbf> <ISO> <out_dir>
 Output: <out_dir>/<ISO>-restrictions.zip plus <ISO>-restrictions.receipt.json
-"""import hashlib, json, math, os, re, sys, time, zipfile
+"""
+import hashlib, json, math, os, re, sys, time, zipfile
 import osmium
 
 TILE = 0.25

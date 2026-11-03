@@ -10,7 +10,7 @@ import json, os, sqlite3, subprocess, sys, tempfile
 KEEP = [
     "nwr/amenity=fuel,charging_station,car_repair,hospital,pharmacy,clinic,doctors,dentist,nursing_home,restaurant,cafe,fast_food,bar,pub,parking,parking_entrance,truck_stop,sanitary_dump_station",
     "nwr/highway=services,rest_area,ford", "nwr/shop=car_repair,truck,tyres", "nwr/craft=car_repair,mechanic",
-    "nwr/healthcare", "nwr/tourism=caravan_site", "nwr/hazard", "nwr/ford", "n/railway=level_crossing",
+    "nwr/healthcare", "nwr/tourism=caravan_site", "nwr/hazard", "nwr/ford", "n/railway=level_crossing", "n/highway=stop,give_way",
     "nwr/service:vehicle:paint", "nwr/service:vehicle:electrical", "nwr/service:vehicle:truck", "nwr/service:vehicle:truck:repair",
     "nwr/service:vehicle:tyres",
 ]
