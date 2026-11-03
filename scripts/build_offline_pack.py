@@ -26,13 +26,22 @@ def sha256(path):
     return h.hexdigest()
 
 
+MIRRORS = ("https://download.geofabrik.de/", "https://download.openstreetmap.fr/extracts/")
+
+
 def fetch(extract, target):
-    url = f"https://download.geofabrik.de/{extract}-latest.osm.pbf"
-    run("curl", "-fsSL", "--retry", "5", "-o", target, url)
-    want = subprocess.run(["curl", "-fsSL", "--retry", "5", url + ".md5"], capture_output=True, text=True, check=True).stdout.split()[0]
-    got = subprocess.run(["md5sum", target], capture_output=True, text=True, check=True).stdout.split()[0]
-    if want != got: sys.exit(f"MD5 mismatch for {url}")
-    return url
+    """Geofabrik first, openstreetmap.fr as backup; every download checked against its own MD5."""
+    for mirror in MIRRORS:
+        url = f"{mirror}{extract}-latest.osm.pbf"
+        try:
+            run("curl", "-fsSL", "--retry", "5", "--retry-delay", "20", "-o", target, url)
+            want = subprocess.run(["curl", "-fsSL", "--retry", "5", url + ".md5"], capture_output=True, text=True, check=True).stdout.split()[0]
+            got = subprocess.run(["md5sum", target], capture_output=True, text=True, check=True).stdout.split()[0]
+            if want == got: return url
+            print(f"MD5 mismatch for {url}", flush=True)
+        except subprocess.CalledProcessError as e:
+            print(f"{url} failed: {e}", flush=True)
+    sys.exit(f"{extract}: no mirror answered")
 
 
 def main():

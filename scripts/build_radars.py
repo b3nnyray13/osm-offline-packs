@@ -30,6 +30,8 @@ def fetch(query, tries=4):
                 "Accept": "application/qlever-results+json", "User-Agent": "osm-offline-packs/1.0 (daily speed cameras)"})
             return json.loads(urllib.request.urlopen(req, timeout=600).read())
         except Exception as e:  # network or server busy: retry later
+            if getattr(e, "code", None) == 403:  # refused, not busy: no use waiting
+                raise
             err = e
             time.sleep(60 * (i + 1))
     raise err
@@ -45,10 +47,26 @@ def literal(v):
     return v.strip("<>")
 
 
-def main():
-    out = sys.argv[1]
-    os.makedirs(out, exist_ok=True)
-    today = time.strftime("%Y-%m-%d", time.gmtime())
+OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter",
+            "https://overpass.private.coffee/api/interpreter"]
+CAMERA_KEYS = ("maxspeed", "direction", "check_date", "name", "enforcement")
+
+
+def overpass(selector):
+    """Backup when QLever refuses the request: the same OSM nodes from the Overpass mirrors."""
+    q = "[out:json][timeout:900];node%s(%s,%s,%s,%s);out;" % (selector, SOUTH, WEST, NORTH, EAST)
+    err = None
+    for url in OVERPASS:
+        try:
+            req = urllib.request.Request(url, data=urllib.parse.urlencode({"data": q}).encode(),
+                                         headers={"User-Agent": "osm-offline-packs/1.0 (daily speed cameras)"})
+            return json.loads(urllib.request.urlopen(req, timeout=1000).read())["elements"]
+        except Exception as e:
+            err = e
+    raise err
+
+
+def from_qlever(today):
     features = {}
     for node, wkt in fetch(POSITIONS)["res"]:
         node, wkt = literal(node) or "", literal(wkt) or ""
@@ -61,13 +79,11 @@ def main():
         features[osm_id] = {"type": "Feature",
                             "properties": {"highway": "speed_camera", "owner_kind": "MAPPED_RADAR", "osm_id": "node/" + osm_id, "verified": today},
                             "geometry": {"type": "Point", "coordinates": [round(lon, 6), round(lat, 6)]}}
-    for key in ("maxspeed", "direction", "check_date", "name", "enforcement"):
+    for key in CAMERA_KEYS:
         for node, val in fetch(ATTRIBUTE % key)["res"]:
             f = features.get((literal(node) or "").rsplit("/", 1)[-1])
             if f is not None and literal(val):
                 f["properties"][key] = literal(val)
-    if len(features) < 10000:  # a broken answer must never replace the previous day's list
-        raise SystemExit("only %d cameras; keeping the previous list" % len(features))
     hazards = []
     for node, value, wkt in fetch(HAZARDS)["res"]:
         node, value, wkt = literal(node) or "", literal(value) or "", literal(wkt) or ""
@@ -79,6 +95,35 @@ def main():
         hazards.append({"type": "Feature",
                         "properties": {"hazard": value, "owner_kind": "HAZARD", "name": value, "osm_id": "node/" + node.rsplit("/", 1)[1], "verified": today},
                         "geometry": {"type": "Point", "coordinates": [round(lon, 6), round(lat, 6)]}})
+    return features, hazards
+
+
+def from_overpass(today):
+    features, hazards = {}, []
+    for e in overpass('["highway"="speed_camera"]'):
+        props = {"highway": "speed_camera", "owner_kind": "MAPPED_RADAR", "osm_id": "node/%d" % e["id"], "verified": today}
+        props.update({k: v for k, v in e.get("tags", {}).items() if k in CAMERA_KEYS})
+        features[str(e["id"])] = {"type": "Feature", "properties": props,
+                                  "geometry": {"type": "Point", "coordinates": [round(e["lon"], 6), round(e["lat"], 6)]}}
+    for e in overpass('["hazard"]'):
+        value = e.get("tags", {}).get("hazard")
+        if value:
+            hazards.append({"type": "Feature", "properties": {"hazard": value, "owner_kind": "HAZARD", "name": value, "osm_id": "node/%d" % e["id"], "verified": today},
+                            "geometry": {"type": "Point", "coordinates": [round(e["lon"], 6), round(e["lat"], 6)]}})
+    return features, hazards
+
+
+def main():
+    out = sys.argv[1]
+    os.makedirs(out, exist_ok=True)
+    today = time.strftime("%Y-%m-%d", time.gmtime())
+    try:
+        features, hazards = from_qlever(today)
+    except Exception as e:  # QLever refuses some cloud addresses (403): same data from Overpass
+        print("QLever failed (%s), using Overpass" % e)
+        features, hazards = from_overpass(today)
+    if len(features) < 10000:  # a broken answer must never replace the previous day's list
+        raise SystemExit("only %d cameras; keeping the previous list" % len(features))
     if len(hazards) < 3000:
         raise SystemExit("only %d hazards; keeping the previous list" % len(hazards))
     body = json.dumps({"type": "FeatureCollection", "features": list(features.values()) + hazards}, ensure_ascii=False, separators=(",", ":"))

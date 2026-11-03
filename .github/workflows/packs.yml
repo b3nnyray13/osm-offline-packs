@@ -44,9 +44,12 @@ jobs:
       - if: steps.cache.outputs.cache-hit != 'true'
         run: |
           mkdir -p sources && cd sources
-          curl -fL --retry 10 --retry-delay 30 --retry-all-errors -o water-polygons-split-3857.zip https://osmdata.openstreetmap.de/download/water-polygons-split-3857.zip
-          curl -fL --retry 10 --retry-delay 30 --retry-all-errors -o natural_earth_vector.sqlite.zip https://naciscdn.org/naturalearth/packages/natural_earth_vector.sqlite.zip
-          curl -fL --retry 10 --retry-delay 30 --retry-all-errors -o lake_centerline.shp.zip https://github.com/acalcutt/osm-lakelines/releases/download/v12/lake_centerline.shp.zip
+          # Copy kept in this repository (osmdata.openstreetmap.de does not answer GitHub runners); the original as backup.
+          base=https://github.com/${{ github.repository }}/releases/download/planetiler-sources
+          get() { curl -fL --retry 5 --retry-delay 20 -o "$1" "$base/$1" || curl -fL --retry 5 --retry-delay 30 --retry-all-errors -o "$1" "$2"; }
+          get water-polygons-split-3857.zip https://osmdata.openstreetmap.de/download/water-polygons-split-3857.zip
+          get natural_earth_vector.sqlite.zip https://naciscdn.org/naturalearth/packages/natural_earth_vector.sqlite.zip
+          get lake_centerline.shp.zip https://github.com/acalcutt/osm-lakelines/releases/download/v12/lake_centerline.shp.zip
           ls -la
 
   build:
@@ -104,9 +107,6 @@ jobs:
     needs: build
     if: always()
     runs-on: ubuntu-latest
-    concurrency:
-      group: catalog
-      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -123,4 +123,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add catalog.json
-          git diff --cached --quiet || (git commit -m "Offline packs $(date -u +%F)" && git push)
+          git diff --cached --quiet || git commit -m "Offline packs $(date -u +%F)"
+          # Several workflows write the catalog: rebase on the newest one and retry instead of queueing them.
+          for i in 1 2 3 4 5; do git push && break; sleep $((i * 15)); git pull --rebase; done
