@@ -609,6 +609,44 @@
         }
       ]
     },
+    "LU": {
+      "version": "LU-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "LU",
+      "title": "Luxemburg (toată țara)",
+      "source": "https://download.geofabrik.de/europe/luxembourg-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "LU.map.mbtiles",
+          "bytes": 37552128,
+          "sha256": "0af38324f1e11122512ba365405dc376bda4a02c443ead167f0cce2f59a1b658",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/LU-2026-11-02/LU.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "LU.valhalla.tar",
+          "bytes": 42465280,
+          "sha256": "32d25d343c58d50120bddf5be15c679e9e6f58d60c579376051fabef51deed60",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/LU-2026-11-02/LU.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "LU.search.sqlite",
+          "bytes": 52596736,
+          "sha256": "e8b0bab266b8a22995bf7ae1f8f3985e4e8c3c745adf8d4e07a1f208e2870d46",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/LU-2026-11-02/LU.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "LU.pois.sqlite",
+          "bytes": 3346432,
+          "sha256": "e4e539c9ed6d22332e944e228c71d08ee91c4281bf420a2eeab1cb996cc6f9a6",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/LU-2026-11-02/LU.pois.sqlite"
+        }
+      ]
+    },
     "RO": {
       "version": "RO-2026-10-18",
       "osmDate": "2026-10-18",
