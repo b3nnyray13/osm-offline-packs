@@ -647,5 +647,15 @@
       "country": "RO",
       "title": "România (toată țara)"
     }
+  },
+  "radars": {
+    "date": "2026-11-03",
+    "cameras": 47467,
+    "hazards": 15616,
+    "file": "radars-europe.geojson.gz",
+    "bytes": 1152773,
+    "sha256": "4926a82d5f7af71a5b79a353858bea9064a435685eada5ef0879bff0bffca093",
+    "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/radars/radars-europe.geojson.gz",
+    "license": "© OpenStreetMap contributors, ODbL 1.0"
   }
 }
