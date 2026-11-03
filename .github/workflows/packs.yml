@@ -44,10 +44,15 @@ jobs:
       - if: steps.cache.outputs.cache-hit != 'true'
         run: |
           mkdir -p sources && cd sources
-          # Copy kept in this repository (osmdata.openstreetmap.de does not answer GitHub runners); the original as backup.
+          # Each file from its source, with a copy in this repository as backup (osmdata.openstreetmap.de was down on 03.11.2026).
           base=https://github.com/${{ github.repository }}/releases/download/planetiler-sources
-          get() { curl -fL --retry 5 --retry-delay 20 -o "$1" "$base/$1" || curl -fL --retry 5 --retry-delay 30 --retry-all-errors -o "$1" "$2"; }
-          get water-polygons-split-3857.zip https://osmdata.openstreetmap.de/download/water-polygons-split-3857.zip
+          get() { curl -fL --retry 5 --retry-delay 20 -o "$1" "$2" || curl -fL --retry 5 --retry-delay 30 -o "$1" "$base/$1"; }
+          # Water: the original, else this repository's copy in 20 MB parts, joined and checked against its SHA-256.
+          curl -fL --retry 3 --retry-delay 30 --connect-timeout 60 -o water-polygons-split-3857.zip https://osmdata.openstreetmap.de/download/water-polygons-split-3857.zip || {
+            rm -f water-polygons-split-3857.zip; want=$(curl -fsL "$base/water-polygons-split-3857.zip.sha256")
+            for n in $(seq -w 0 59); do curl -fsL --retry 5 -o part$n "$base/water-polygons-split-3857.zip.part$n" || break; done
+            cat part* > water-polygons-split-3857.zip && rm part*
+            [ "$(sha256sum water-polygons-split-3857.zip | cut -d' ' -f1)" = "$want" ]; }
           get natural_earth_vector.sqlite.zip https://naciscdn.org/naturalearth/packages/natural_earth_vector.sqlite.zip
           get lake_centerline.shp.zip https://github.com/acalcutt/osm-lakelines/releases/download/v12/lake_centerline.shp.zip
           ls -la
