@@ -1,7 +1,7 @@
 """Vehicle restriction tiles for one country from a Geofabrik .osm.pbf (ODbL).
 
 Selects ways and nodes with physical or legal limits for heavy vehicles (height, weight, width, length, axle load,
-hgv/goods/hazmat access) and for all motor vehicles (no access, pedestrian zones), and writes Overpass-shaped JSON
+hgv/goods/hazmat access, trailer/caravan/motorhome bans, bans limited by hours) and for all motor vehicles (no access, pedestrian zones, no motorcycles, no mopeds), and writes Overpass-shaped JSON
 tiles of 0.25 degrees: heavy/<s_w_n_e>.json and car/<s_w_n_e>.json.
 
 Usage: python scripts/build_restriction_pack.py <country.osm.pbf> <ISO> <out_dir>
@@ -15,19 +15,22 @@ MAX_KEY = re.compile(r"^max(height|weight|width|length|axleload)(:physical|:hgv)
 HAZMAT_KEY = re.compile(r"^hazmat(:[A-E]|:adr_tunnel_cat)?$")
 CAR_ACCESS_ROADS = {"residential", "unclassified", "tertiary", "secondary", "living_street"}
 KEEP = {"highway", "name", "ref", "maxweightrating:hgv", "hgv", "goods", "motor_vehicle", "motorcar", "access",
-        "covered", "tunnel", "toll", "lanes"}
+        "covered", "tunnel", "toll", "lanes", "trailer", "caravan", "motorhome", "motorcycle", "moped",
+        "hgv:conditional", "motor_vehicle:conditional", "maxweight:conditional"}
+CONDITIONAL = ("hgv:conditional", "motor_vehicle:conditional", "maxweight:conditional")
 
 
 def car_part(t):
     return (t.get("motor_vehicle") in ("no", "private") or t.get("motorcar") in ("no", "private")
-            or t.get("highway") == "pedestrian"
+            or t.get("highway") == "pedestrian" or t.get("motorcycle") == "no" or t.get("moped") == "no"
             or (t.get("highway") in CAR_ACCESS_ROADS and t.get("access") in ("no", "private")))
 
 
 def heavy_part(t):
     return (any(MAX_KEY.match(k) and v for k, v in t.items()) or bool(t.get("maxweightrating:hgv"))
             or t.get("hgv") in ("no", "destination", "delivery") or t.get("goods") in ("no", "private")
-            or any(HAZMAT_KEY.match(k) and v for k, v in t.items()))
+            or any(HAZMAT_KEY.match(k) and v for k, v in t.items())
+            or "no" in (t.get("trailer"), t.get("caravan"), t.get("motorhome")) or any(t.get(k) for k in CONDITIONAL))
 
 
 def slim(t):

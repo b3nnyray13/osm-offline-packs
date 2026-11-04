@@ -18,6 +18,11 @@ def main():
         r = json.load(open(radar))
         catalog["radars"] = {"date": r["date"], "cameras": r["cameras"], "hazards": r.get("hazards", 0), "file": r["file"], "bytes": r["bytes"],
                              "sha256": r["sha256"], "url": "%s/radars/%s" % (BASE, r["file"]), "license": r["license"]}
+    legal = os.path.join(receipts, "legal-speeds.receipt.json")
+    if os.path.exists(legal):
+        r = json.load(open(legal))
+        catalog["legalSpeeds"] = {"date": r["date"], "countries": r["countries"], "file": r["file"], "bytes": r["bytes"], "sha256": r["sha256"],
+                                  "url": "%s/radars/%s" % (BASE, r["file"]), "license": r["license"]}
     for path in glob.glob(os.path.join(receipts, "*.entry.json")):
         e = json.load(open(path, encoding="utf-8"))
         old = catalog["countries"].get(e["id"], {})

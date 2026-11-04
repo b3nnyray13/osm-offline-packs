@@ -81,8 +81,13 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           tag=restrictions-${{ matrix.iso }}
-          gh release view $tag >/dev/null 2>&1 || gh release create $tag --title "Vehicle restrictions ${{ matrix.iso }}" --notes "Vehicle restriction tiles from OpenStreetMap (Geofabrik extract), rebuilt every week. © OpenStreetMap contributors, ODbL 1.0."
-          gh release upload $tag out/${{ matrix.iso }}-restrictions.zip --clobber
+          # GitHub sometimes answers 5xx on large uploads (Ukraine, 03.11.2026): try again rather than lose the country for a day.
+          for i in 1 2 3 4 5; do
+            { gh release view $tag >/dev/null 2>&1 || gh release create $tag --title "Vehicle restrictions ${{ matrix.iso }}" --notes "Vehicle restriction tiles from OpenStreetMap (Geofabrik extract), rebuilt every day. © OpenStreetMap contributors, ODbL 1.0."; } &&
+              gh release upload $tag out/${{ matrix.iso }}-restrictions.zip --clobber && exit 0
+            sleep $((i * 30))
+          done
+          exit 1
       - uses: actions/upload-artifact@v4
         with:
           name: receipt-${{ matrix.iso }}
