@@ -47,6 +47,710 @@
       "country": "AD",
       "title": "Andorra (toată țara)"
     },
+    "AL": {
+      "version": "AL-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "AL",
+      "title": "Albania (toată țara)",
+      "source": "https://download.geofabrik.de/europe/albania-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "AL.map.mbtiles",
+          "bytes": 69533696,
+          "sha256": "0e54df4b3a4aafa3d055a4febc6a235c614e2635c33519120a48b40e08c0b25d",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/AL-2026-11-02/AL.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "AL.valhalla.tar",
+          "bytes": 67604480,
+          "sha256": "6589ff0c9c73dc4a21996147c5629e51caabec6e98898fd1b4441bc663e02a3a",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/AL-2026-11-02/AL.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "AL.search.sqlite",
+          "bytes": 10657792,
+          "sha256": "2491a2c697cb85ecd6fae6791de7dfad73ad6918828ec795119271c64da5ec9d",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/AL-2026-11-02/AL.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "AL.pois.sqlite",
+          "bytes": 4014080,
+          "sha256": "2fc33e4d11861bd0ffdb7f7adccfa20a66c0423736c9de2eedb2b44d2ed6ad42",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/AL-2026-11-02/AL.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "AL-restrictions.zip",
+          "bytes": 458798,
+          "sha256": "8984c1170f5e8bf93cc2225e421a3799e4399e6a9b78406d3cea49f61a9d6b77",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-AL/AL-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "AT": {
+      "version": "AT-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "AT",
+      "title": "Austria (toată țara)",
+      "source": "https://download.geofabrik.de/europe/austria-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "AT.map.mbtiles",
+          "bytes": 645828608,
+          "sha256": "7ac596991ddc00f36147b8eab76a89d7bf7821bad86c3fcaa241d97fd088c7d9",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/AT-2026-11-02/AT.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "AT.valhalla.tar",
+          "bytes": 819845120,
+          "sha256": "5b30dacbfa41743fbaaa8b6164441aecfd1f2d5301e900fc8471eb450d4d5953",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/AT-2026-11-02/AT.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "AT.search.sqlite",
+          "bytes": 597495808,
+          "sha256": "7f47c712299d2f05eeb8f38a728152865f6597780a6756b790e5a1bc976a5cdd",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/AT-2026-11-02/AT.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "AT.pois.sqlite",
+          "bytes": 47345664,
+          "sha256": "2d98265690525597e0e7665dbcb7ae9cc1494b54aca3e9a39b6c5c8d33c5425c",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/AT-2026-11-02/AT.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "AT-restrictions.zip",
+          "bytes": 10490654,
+          "sha256": "eb6263e02164af1cb855736e7b83b52b14082517f8ebda2e6692b473fe458ca9",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-AT/AT-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "BA": {
+      "version": "BA-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "BA",
+      "title": "Bosnia și Herțegovina",
+      "source": "https://download.geofabrik.de/europe/bosnia-herzegovina-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "BA.map.mbtiles",
+          "bytes": 216363008,
+          "sha256": "7f5884b5be72039d006b19ea15413394c4a033f79bec8509c1497fae4cc98a3e",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/BA-2026-11-02/BA.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "BA.valhalla.tar",
+          "bytes": 110469120,
+          "sha256": "d90f311aea71d15f63d0a4704bb74d9cafe5a0033e7755fcebba9bc2993c3957",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/BA-2026-11-02/BA.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "BA.search.sqlite",
+          "bytes": 60469248,
+          "sha256": "0c08a0c6c00ec67e27337219b8d5fb8d1ca468436440720eb07a8dff7efbdf39",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/BA-2026-11-02/BA.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "BA.pois.sqlite",
+          "bytes": 2904064,
+          "sha256": "f4fd2699b9f7e5d8deb75fac798c4a8acfdd543f0259ba7a62fd7241516b2f3c",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/BA-2026-11-02/BA.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "BA-restrictions.zip",
+          "bytes": 623490,
+          "sha256": "9eeae62f35bae5c01e73b956d47f5b0579adc204f146c1a20dbf697105179120",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-BA/BA-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "BE": {
+      "version": "BE-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "BE",
+      "title": "Belgia (toată țara)",
+      "source": "https://download.geofabrik.de/europe/belgium-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "BE.map.mbtiles",
+          "bytes": 441405440,
+          "sha256": "2f98f4ea444eb3a5ca5cc4e7a9c1c5df42f685d274d18b721f1592c94fafde52",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/BE-2026-11-02/BE.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "BE.valhalla.tar",
+          "bytes": 456396800,
+          "sha256": "1fe07a079e7b243f31e1f8dcb7bba31e1b456e240b7f7916d1ca74957f271f55",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/BE-2026-11-02/BE.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "BE.search.sqlite",
+          "bytes": 1258930176,
+          "sha256": "e3fda6cdd90a02f366858b0f9bb267e5b72d47df9b8fee469fe97a66fa1b0e60",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/BE-2026-11-02/BE.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "BE.pois.sqlite",
+          "bytes": 32362496,
+          "sha256": "e52be1b340c23c6fb5d5c4894b7868b89f85771117ff5d11a5ed4e3ca5f784ac",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/BE-2026-11-02/BE.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "BE-restrictions.zip",
+          "bytes": 6947072,
+          "sha256": "4627b6520a7487f645c59a4bf7420649eb18c9a1ddb3af4c993df7076a36d572",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-BE/BE-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "BG": {
+      "version": "BG-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "BG",
+      "title": "Bulgaria (toată țara)",
+      "source": "https://download.geofabrik.de/europe/bulgaria-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "BG.map.mbtiles",
+          "bytes": 253149184,
+          "sha256": "65de7a8db4c35e9e85acbdd68b57ec25d6ed29568e01cb7f7a6b201e41367cad",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/BG-2026-11-02/BG.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "BG.valhalla.tar",
+          "bytes": 235755520,
+          "sha256": "ae8368595753c65e7e1ac51badee5f0b58db88c31ce8fd12ad3bae19ff4d9e3d",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/BG-2026-11-02/BG.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "BG.search.sqlite",
+          "bytes": 73588736,
+          "sha256": "03bb1d30754585451b290b53fea6023c46a8acc2129c027c9db275da35465003",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/BG-2026-11-02/BG.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "BG.pois.sqlite",
+          "bytes": 8003584,
+          "sha256": "fbf987f0406606e368544534267c0fe0c88ff44c500fff53b2a4d8a97954fd82",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/BG-2026-11-02/BG.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "BG-restrictions.zip",
+          "bytes": 1460020,
+          "sha256": "ee9e0985992d4989eb2abddb8c075c31fe93cae0c2b635b64f1a933d7d8dad20",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-BG/BG-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "BY": {
+      "version": "BY-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "BY",
+      "title": "Belarus (toată țara)",
+      "source": "https://download.geofabrik.de/europe/belarus-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "BY.map.mbtiles",
+          "bytes": 604639232,
+          "sha256": "9fb75241f81b0d7fda5f7b5ce940e9cf00dee126b5ebaf91af91c1912a094826",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/BY-2026-11-02/BY.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "BY.valhalla.tar",
+          "bytes": 383703040,
+          "sha256": "4f838da659fecc64a34f3b1a54971b55e635bf390af925b5b560e44b118b52b3",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/BY-2026-11-02/BY.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "BY.search.sqlite",
+          "bytes": 409038848,
+          "sha256": "b33d0785e4b529806de766050849358936f34dc1f4b0492eb22d87f973a67e96",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/BY-2026-11-02/BY.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "BY.pois.sqlite",
+          "bytes": 17408000,
+          "sha256": "233b80f697a22b92cc1dce8e4b3d9ae9a41e2291aa8d56615de8f7722194fb5c",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/BY-2026-11-02/BY.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "BY-restrictions.zip",
+          "bytes": 2967444,
+          "sha256": "3dc29b0110d92e5b7f6a405f0c717329e3eb5e9b95fabd015dea058ea1049c9f",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-BY/BY-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "CH": {
+      "version": "CH-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "CH",
+      "title": "Elveția și Liechtenstein",
+      "source": "https://download.geofabrik.de/europe/switzerland-latest.osm.pbf https://download.geofabrik.de/europe/liechtenstein-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "CH.map.mbtiles",
+          "bytes": 368893952,
+          "sha256": "82442c02ec3dca7839fc2e3ff7bc2a0a5e6380bddfcc92c19626546a023228bf",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/CH-2026-11-02/CH.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "CH.valhalla.tar",
+          "bytes": 645580800,
+          "sha256": "da6a7cbb746fd57e84634bb5387200223eea17ada3afda97cc6c17f52a0099df",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/CH-2026-11-02/CH.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "CH.search.sqlite",
+          "bytes": 601468928,
+          "sha256": "51306fdb4caefe7ddbf4c63caaf2a86f0d823d01c2a888b93642ef56f0a31b53",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/CH-2026-11-02/CH.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "CH.pois.sqlite",
+          "bytes": 40226816,
+          "sha256": "7ee395abb90d1e937fa067d56c928209b798d1d82ba8b8e70b4ecea5faecf0f0",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/CH-2026-11-02/CH.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "CH-restrictions.zip",
+          "bytes": 12033908,
+          "sha256": "7463f6593169ed0ed9406ce1968fa4c33d1fa98da180582f6ea72b2d8d30a03a",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-CH/CH-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "CY": {
+      "version": "CY-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "CY",
+      "title": "Cipru (toată țara)",
+      "source": "https://download.geofabrik.de/europe/cyprus-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "CY.map.mbtiles",
+          "bytes": 39383040,
+          "sha256": "28988558f8c5adee91cd47406a3b4f106c75589b80fe4915b611f2549b496050",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/CY-2026-11-02/CY.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "CY.valhalla.tar",
+          "bytes": 69734400,
+          "sha256": "b59e671bcbec0f73b834233bf16e7965f43ae8dd7ea1354e5ccc5ace5c13fe4a",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/CY-2026-11-02/CY.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "CY.search.sqlite",
+          "bytes": 15843328,
+          "sha256": "fb7ddbadf121f25b835541bba3caafd3ef21b85d75e7ef69809255a660bbf2bb",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/CY-2026-11-02/CY.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "CY.pois.sqlite",
+          "bytes": 3194880,
+          "sha256": "8cd083750c3e249ae6d3758dd5f6846972c1a5d5ea072da6521ad6e1905a1506",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/CY-2026-11-02/CY.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "CY-restrictions.zip",
+          "bytes": 413021,
+          "sha256": "86af83d84b8b9d49b47f16434d4860b87e830fafcaca49210218ee95560ae2b8",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-CY/CY-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "CZ": {
+      "version": "CZ-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "CZ",
+      "title": "Cehia (toată țara)",
+      "source": "https://download.geofabrik.de/europe/czech-republic-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "CZ.map.mbtiles",
+          "bytes": 690106368,
+          "sha256": "13fb645df05a1ec09c319ee680ad304d6c7f87f2722d175a015fab97a0711c4f",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/CZ-2026-11-02/CZ.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "CZ.valhalla.tar",
+          "bytes": 640378880,
+          "sha256": "90fb5af924c4ea34049f7a44cba9236d4aa0f1c6466583eded734c93bc433b50",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/CZ-2026-11-02/CZ.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "CZ.search.sqlite",
+          "bytes": 304271360,
+          "sha256": "7744321763a9f5035eba77fc1bd1204d95cffa01daf9d54205691071e43843c0",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/CZ-2026-11-02/CZ.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "CZ.pois.sqlite",
+          "bytes": 34508800,
+          "sha256": "c00dfd7d2086746f10286536a38ed342fa87ce71a6e46173967f1489de58bfc8",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/CZ-2026-11-02/CZ.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "CZ-restrictions.zip",
+          "bytes": 7561969,
+          "sha256": "2a61cfa48789966851dcdccb2babb59efb99b13bcf749b59309d4765153b9d0b",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-CZ/CZ-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "DE-NO": {
+      "version": "DE-NO-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "DE",
+      "title": "Germania Nord (Niedersachsen, Schleswig-Holstein, Hamburg, Bremen, Mecklenburg-Vorpommern)",
+      "source": "https://download.geofabrik.de/europe/germany/niedersachsen-latest.osm.pbf https://download.geofabrik.de/europe/germany/schleswig-holstein-latest.osm.pbf https://download.geofabrik.de/europe/germany/hamburg-latest.osm.pbf https://download.geofabrik.de/europe/germany/bremen-latest.osm.pbf https://download.geofabrik.de/europe/germany/mecklenburg-vorpommern-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "DE-NO.map.mbtiles",
+          "bytes": 792367104,
+          "sha256": "67e38b225ef05bfce746f674a5736b2ee9b1eb4f02936972d137c72d992fdccd",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-NO-2026-11-02/DE-NO.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "DE-NO.valhalla.tar",
+          "bytes": 894310400,
+          "sha256": "267d0f717a5c192ec671cdb425555db3dc283e903b7ac2a65fc540a0e25def96",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-NO-2026-11-02/DE-NO.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "DE-NO.search.sqlite",
+          "bytes": 1154441216,
+          "sha256": "1f77534b7d6f5917a4621b65cb73d9cd8120d07e2c7ac2bdc75085e225bb2f96",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-NO-2026-11-02/DE-NO.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "DE-NO.pois.sqlite",
+          "bytes": 59322368,
+          "sha256": "133089fd21fd5bb1f5d17a75b863e622604c6aa72749ad4fdec23316cabbd8f2",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-NO-2026-11-02/DE-NO.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "DE-restrictions.zip",
+          "bytes": 61713411,
+          "sha256": "9d5202f682dc2ca0499d946455a2af748c96cbe0f306c5535ea4c8a888c3e915",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-DE/DE-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "DE-OS": {
+      "version": "DE-OS-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "DE",
+      "title": "Germania Est (Berlin, Brandenburg, Sachsen, Sachsen-Anhalt, Thüringen)",
+      "source": "https://download.geofabrik.de/europe/germany/berlin-latest.osm.pbf https://download.geofabrik.de/europe/germany/brandenburg-latest.osm.pbf https://download.geofabrik.de/europe/germany/sachsen-latest.osm.pbf https://download.geofabrik.de/europe/germany/sachsen-anhalt-latest.osm.pbf https://download.geofabrik.de/europe/germany/thueringen-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "DE-OS.map.mbtiles",
+          "bytes": 659722240,
+          "sha256": "ab145e0f89b2486ef924df2c1301ca5ce1daf927f1ba7d7b3ac271a5f8cc7ec6",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-OS-2026-11-02/DE-OS.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "DE-OS.valhalla.tar",
+          "bytes": 987719680,
+          "sha256": "b4f3ce5a7d978789927ced9ead0cd36dc93c9de2a5ef534208c29444ea88bd07",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-OS-2026-11-02/DE-OS.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "DE-OS.search.sqlite",
+          "bytes": 942907392,
+          "sha256": "facf3c737c3ba2f6db1fa0f43d5893dab4e887db464a4da8e9e5ca3917a7638e",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-OS-2026-11-02/DE-OS.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "DE-OS.pois.sqlite",
+          "bytes": 75751424,
+          "sha256": "9f9c90db7d288e728d5fdfcd06744cec95234018427c50ec84721d96aaa88ea1",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-OS-2026-11-02/DE-OS.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "DE-restrictions.zip",
+          "bytes": 61713411,
+          "sha256": "9d5202f682dc2ca0499d946455a2af748c96cbe0f306c5535ea4c8a888c3e915",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-DE/DE-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "DE-SU": {
+      "version": "DE-SU-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "DE",
+      "title": "Germania Sud (Bayern, Baden-Württemberg)",
+      "source": "https://download.geofabrik.de/europe/germany/bayern-latest.osm.pbf https://download.geofabrik.de/europe/germany/baden-wuerttemberg-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "DE-SU.map.mbtiles",
+          "bytes": 1012531200,
+          "sha256": "a2fabf437621a5ec4f620c9d9f3be8d3262bd92c42c00b81b84ce8e5417c94c6",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-SU-2026-11-02/DE-SU.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "DE-SU.valhalla.tar",
+          "bytes": 1732710400,
+          "sha256": "153f8fc4362647560b59767a047d52037497754693889225991eaf388b277c36",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-SU-2026-11-02/DE-SU.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "DE-SU.search.sqlite",
+          "bytes": 1665966080,
+          "sha256": "dc8b1725fab55bb48ed0e413d94f7421a0f475ee105a6706c79f0205489ed171",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-SU-2026-11-02/DE-SU.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "DE-SU.pois.sqlite",
+          "bytes": 104837120,
+          "sha256": "3d810bd4a34cc7624b10086fc130f2710624057f5e3fb1231c7bcec8d758dae3",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-SU-2026-11-02/DE-SU.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "DE-restrictions.zip",
+          "bytes": 61713411,
+          "sha256": "9d5202f682dc2ca0499d946455a2af748c96cbe0f306c5535ea4c8a888c3e915",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-DE/DE-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "DE-WE": {
+      "version": "DE-WE-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "DE",
+      "title": "Germania Vest (Nordrhein-Westfalen, Hessen, Rheinland-Pfalz, Saarland)",
+      "source": "https://download.geofabrik.de/europe/germany/nordrhein-westfalen-latest.osm.pbf https://download.geofabrik.de/europe/germany/hessen-latest.osm.pbf https://download.geofabrik.de/europe/germany/rheinland-pfalz-latest.osm.pbf https://download.geofabrik.de/europe/germany/saarland-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "DE-WE.map.mbtiles",
+          "bytes": 960106496,
+          "sha256": "7c851fb1c9328e03baa11c11d459ccced1cf3c82d64e3fd66e4cb5f642655d0e",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-WE-2026-11-02/DE-WE.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "DE-WE.valhalla.tar",
+          "bytes": 1534689280,
+          "sha256": "71b02f17825b00c236b4f0561ef7d5e538bb00d269c2766f674e2f0ff13c648a",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-WE-2026-11-02/DE-WE.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "DE-WE.search.sqlite",
+          "bytes": 2356465664,
+          "sha256": "71e07f78e09649573f91bfb242d166511ea56cc0a07eeabee7e9467d0bf9de54",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-WE-2026-11-02/DE-WE.search.sqlite.000",
+          "chunks": [
+            {
+              "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-WE-2026-11-02/DE-WE.search.sqlite.000",
+              "bytes": 1992294400,
+              "sha256": "56bf6b8d4d08f5029a915acd78b8592f2b01713387d1c1eba57518a247d7a8a3",
+              "file": "DE-WE.search.sqlite.000"
+            },
+            {
+              "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-WE-2026-11-02/DE-WE.search.sqlite.001",
+              "bytes": 364171264,
+              "sha256": "1888f0d78db3ee0be8b728933065d685a3b127b5d94849cb4335f03df28edc2f",
+              "file": "DE-WE.search.sqlite.001"
+            }
+          ]
+        },
+        {
+          "kind": "pois",
+          "file": "DE-WE.pois.sqlite",
+          "bytes": 112259072,
+          "sha256": "c0259bfba0f17f60bdac04e05e37321597f4a366bbbddd9f2188c714272dc1c6",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DE-WE-2026-11-02/DE-WE.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "DE-restrictions.zip",
+          "bytes": 61713411,
+          "sha256": "9d5202f682dc2ca0499d946455a2af748c96cbe0f306c5535ea4c8a888c3e915",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-DE/DE-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "DK": {
+      "version": "DK-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "DK",
+      "title": "Danemarca (toată țara)",
+      "source": "https://download.geofabrik.de/europe/denmark-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "DK.map.mbtiles",
+          "bytes": 375660544,
+          "sha256": "cb26ed675c0d16d60863566e301e1440bc78281c6731e6b3b841cb63d821ec65",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DK-2026-11-02/DK.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "DK.valhalla.tar",
+          "bytes": 525998080,
+          "sha256": "f9b29508cf9eb6e64ed30a34e9b647000ada8bfa05a93fde90e5a24887a28d8a",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DK-2026-11-02/DK.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "DK.search.sqlite",
+          "bytes": 419319808,
+          "sha256": "c21aee8fe05b0c1e4c963ee031f47a96c8d80a5f1b52e0de857fe2fdb7dde4ed",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DK-2026-11-02/DK.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "DK.pois.sqlite",
+          "bytes": 25579520,
+          "sha256": "6cdf5b2d0bca1c11bc5868359db10beaac1f583122e25991fcdaf0fe86168085",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/DK-2026-11-02/DK.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "DK-restrictions.zip",
+          "bytes": 3273881,
+          "sha256": "54d2b1b519a624cb1749e766180b78f0fa7ec288765e7b20be04c4fd6d95a9a7",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-DK/DK-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "EE": {
+      "version": "EE-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "EE",
+      "title": "Estonia (toată țara)",
+      "source": "https://download.geofabrik.de/europe/estonia-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "EE.map.mbtiles",
+          "bytes": 177303552,
+          "sha256": "f2bc1dff7ac0cadbc8a8a50e01ba9840d3910dfa6b1ff795e3210931aa10d318",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/EE-2026-11-02/EE.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "EE.valhalla.tar",
+          "bytes": 130078720,
+          "sha256": "7700415e075d78d127be831aad161cc9ffd69545cd608366c5b84968c113a381",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/EE-2026-11-02/EE.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "EE.search.sqlite",
+          "bytes": 125956096,
+          "sha256": "52d842f9d3b4c41e539c92e7fb16c3d24c7aa0bec807dd09d344ec7fa162d09c",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/EE-2026-11-02/EE.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "EE.pois.sqlite",
+          "bytes": 4435968,
+          "sha256": "02a025a8729781a1729c5f61e102e4fc99a8289066b4fe2fa5e5151de8374ac6",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/EE-2026-11-02/EE.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "EE-restrictions.zip",
+          "bytes": 740374,
+          "sha256": "30fa73fe16d9315cf161815086a4e9f981ffbd55ad660d41680215eecb970049",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-EE/EE-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
     "ES-CE": {
       "version": "ES-CE-2026-10-20",
       "osmDate": "2026-10-20",
@@ -323,6 +1027,52 @@
         }
       ]
     },
+    "FI": {
+      "version": "FI-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "FI",
+      "title": "Finlanda (toată țara)",
+      "source": "https://download.geofabrik.de/europe/finland-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "FI.map.mbtiles",
+          "bytes": 1260326912,
+          "sha256": "48d9fda173788e1a05a99c7edda460c45538ef64e7e28e89f5c8d725f41e2f76",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FI-2026-11-02/FI.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "FI.valhalla.tar",
+          "bytes": 826183680,
+          "sha256": "c74a0f186eacc1f4f477bc18b4fa8fa0fa951eef39eba8943abf737128277ae7",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FI-2026-11-02/FI.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "FI.search.sqlite",
+          "bytes": 323059712,
+          "sha256": "fa1d4f48834bc98f944666dcd1f2a7aadaefcc817395a2af040419d927b0fee0",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FI-2026-11-02/FI.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "FI.pois.sqlite",
+          "bytes": 23068672,
+          "sha256": "392e4feb2422abb4264cc1a4a33e1d9fb52e7ed2da8bc4e8c27946c1199ff23c",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/FI-2026-11-02/FI.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "FI-restrictions.zip",
+          "bytes": 6883467,
+          "sha256": "c6bdab6148c784c74aa2abd738e753f8a4ba0a2f68df3fbf6322421cf1950c31",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-FI/FI-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
     "FR-NE": {
       "version": "FR-NE-2026-10-20",
       "osmDate": "2026-10-20",
@@ -503,6 +1253,342 @@
           "bytes": 47557131,
           "sha256": "2e959d09f3d71ec6cddb7462d301436ed481c1a8f6677dd650f8b66a0329b8dd",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-FR/FR-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "GB-EN": {
+      "version": "GB-EN-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "GB",
+      "title": "Marea Britanie – Anglia",
+      "source": "https://download.geofabrik.de/europe/united-kingdom/england-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "GB-EN.map.mbtiles",
+          "bytes": 1219117056,
+          "sha256": "9ad664d1384911c5aa57b397fdee07e2bc104debceffc628f602617f38a1cf23",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/GB-EN-2026-11-02/GB-EN.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "GB-EN.valhalla.tar",
+          "bytes": 2183116800,
+          "sha256": "7d743eaff5eab8a9f5a9cafda812aa74c7a5ffb30b42671b9831249627e198c5",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/GB-EN-2026-11-02/GB-EN.valhalla.tar.000",
+          "chunks": [
+            {
+              "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/GB-EN-2026-11-02/GB-EN.valhalla.tar.000",
+              "bytes": 1992294400,
+              "sha256": "b992e4d233232b349f26feeb2967e3502528a6b5c798faa518aa7099bf93dbd8",
+              "file": "GB-EN.valhalla.tar.000"
+            },
+            {
+              "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/GB-EN-2026-11-02/GB-EN.valhalla.tar.001",
+              "bytes": 190822400,
+              "sha256": "b8e8c509fb877123e371dd129ab96db98a9f51dd96c8bc9afa3bfda7877da2ab",
+              "file": "GB-EN.valhalla.tar.001"
+            }
+          ]
+        },
+        {
+          "kind": "search",
+          "file": "GB-EN.search.sqlite",
+          "bytes": 1514090496,
+          "sha256": "b27b25de248974bd714ae69c057de66ffd7f4c34661b1eb528526bc725805938",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/GB-EN-2026-11-02/GB-EN.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "GB-EN.pois.sqlite",
+          "bytes": 124035072,
+          "sha256": "345d55d66d7ae7a624c3b16644db1fc3aa5db0cab440f699f99a3da77b2dcd93",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/GB-EN-2026-11-02/GB-EN.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "GB-restrictions.zip",
+          "bytes": 39276223,
+          "sha256": "4b452cc54e5bd12f492141bfa28dfb8ec910147852a5af7334c9112d0f2db215",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-GB/GB-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "GB-SW": {
+      "version": "GB-SW-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "GB",
+      "title": "Marea Britanie – Scoția și Țara Galilor",
+      "source": "https://download.geofabrik.de/europe/united-kingdom/scotland-latest.osm.pbf https://download.geofabrik.de/europe/united-kingdom/wales-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "GB-SW.map.mbtiles",
+          "bytes": 706584576,
+          "sha256": "13b86cc076275af5ebc5f3b736d8bc409f0b11e1ce5001905ff4de8cbc8bb7a5",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/GB-SW-2026-11-02/GB-SW.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "GB-SW.valhalla.tar",
+          "bytes": 480614400,
+          "sha256": "786a1cc83ac565af671eb637562fd9182d222134bf61913a270519a7ca5760df",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/GB-SW-2026-11-02/GB-SW.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "GB-SW.search.sqlite",
+          "bytes": 206270464,
+          "sha256": "bbda1efeabf3541cae9d8a778eb1502903015fd0ff2b2d7b5013ac6ecc73667f",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/GB-SW-2026-11-02/GB-SW.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "GB-SW.pois.sqlite",
+          "bytes": 25030656,
+          "sha256": "6603bc4d45dfa972b42b0840cdb47b08aa22098bbfee8491763ab8488f3e350e",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/GB-SW-2026-11-02/GB-SW.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "GB-restrictions.zip",
+          "bytes": 39276223,
+          "sha256": "4b452cc54e5bd12f492141bfa28dfb8ec910147852a5af7334c9112d0f2db215",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-GB/GB-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "GR": {
+      "version": "GR-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "GR",
+      "title": "Grecia (toată țara)",
+      "source": "https://download.geofabrik.de/europe/greece-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "GR.map.mbtiles",
+          "bytes": 383336448,
+          "sha256": "a272d0a3296006c0216755dd6c33678920ca0c0c5782ae906ac9860dea29f70f",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/GR-2026-11-02/GR.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "GR.valhalla.tar",
+          "bytes": 550574080,
+          "sha256": "14ef91a7d602a9a49ff629aa4df4160af29ef9756e54f325f423fa37c4074b83",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/GR-2026-11-02/GR.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "GR.search.sqlite",
+          "bytes": 84246528,
+          "sha256": "f065c62dcbc2884faee80dc47a5090afc7a133aa84f60c3651a5ad1785f5f632",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/GR-2026-11-02/GR.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "GR.pois.sqlite",
+          "bytes": 21512192,
+          "sha256": "781701883ae8c94b188404dd603c5d28fd2e3ebbc182c98909295de3e260b5f9",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/GR-2026-11-02/GR.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "GR-restrictions.zip",
+          "bytes": 2839835,
+          "sha256": "21ff00c883bd5ad5fcee259699c54a7390045e0e89a80af5cb62a8899cd09aad",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-GR/GR-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "HR": {
+      "version": "HR-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "HR",
+      "title": "Croația (toată țara)",
+      "source": "https://download.geofabrik.de/europe/croatia-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "HR.map.mbtiles",
+          "bytes": 247738368,
+          "sha256": "31dafa165ae8979f018a5329505b962a39206c84579e8ac13c9eaff043cf0bf9",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/HR-2026-11-02/HR.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "HR.valhalla.tar",
+          "bytes": 212858880,
+          "sha256": "f0844d416fcf9b7398ce66cf56cc6a932d9aac6342c947827ae40c019c0c364b",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/HR-2026-11-02/HR.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "HR.search.sqlite",
+          "bytes": 78528512,
+          "sha256": "8e53d47e9144c372bf97a5ae4ebb6bfc253e0763881c5de35de805913994b528",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/HR-2026-11-02/HR.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "HR.pois.sqlite",
+          "bytes": 9490432,
+          "sha256": "910db45275316593c349fc382555f16215c0b49032631d90f4001679b5bc77e0",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/HR-2026-11-02/HR.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "HR-restrictions.zip",
+          "bytes": 1712503,
+          "sha256": "2f318165576a2bdfb73f7918c34afe8686c83e81c3c9ce9fb9b71be92542474f",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-HR/HR-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "HU": {
+      "version": "HU-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "HU",
+      "title": "Ungaria (toată țara)",
+      "source": "https://download.geofabrik.de/europe/hungary-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "HU.map.mbtiles",
+          "bytes": 323104768,
+          "sha256": "8291bc052bfd9e42b11fb69187d3ec8ce62f8a8067ce80af81f42c0e2ec82f21",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/HU-2026-11-02/HU.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "HU.valhalla.tar",
+          "bytes": 374169600,
+          "sha256": "55e977b4cebf0f79cb414c6f016d03a6d7ef7685703a8a407e83e4d3e990a2a0",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/HU-2026-11-02/HU.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "HU.search.sqlite",
+          "bytes": 251371520,
+          "sha256": "9017cd9a338195b990bb7da16ee63cf259e4de48220503d2912918c715723b68",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/HU-2026-11-02/HU.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "HU.pois.sqlite",
+          "bytes": 21839872,
+          "sha256": "880bb2675fff1407c97b6826c0b98f30ec4df9a11338f7e3d054adc4c72c47eb",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/HU-2026-11-02/HU.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "HU-restrictions.zip",
+          "bytes": 2747208,
+          "sha256": "2111bd53c58e24a248da94fd95112eed888f71d6e0192208580ee65e4491c00b",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-HU/HU-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "IE": {
+      "version": "IE-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "IE",
+      "title": "Irlanda și Irlanda de Nord",
+      "source": "https://download.geofabrik.de/europe/ireland-and-northern-ireland-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "IE.map.mbtiles",
+          "bytes": 378687488,
+          "sha256": "84bc39efff3483457369cd466b7c625a55da8aa913d243b339f85ff9906a8622",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IE-2026-11-02/IE.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "IE.valhalla.tar",
+          "bytes": 555857920,
+          "sha256": "83c177251e02dea474820ee58e4fbc2905fec7864352ccdc19b03f1bba331326",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IE-2026-11-02/IE.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "IE.search.sqlite",
+          "bytes": 168644608,
+          "sha256": "9ee92095bcbfcc87706358b547f85ad0c09d625e720a28daceb4c86fbfef2fed",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IE-2026-11-02/IE.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "IE.pois.sqlite",
+          "bytes": 21323776,
+          "sha256": "fb14ca0f2131cb6b1fb5d0f18f5bd913e8515e576e251fbdec22121640a94807",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IE-2026-11-02/IE.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "IE-restrictions.zip",
+          "bytes": 2467303,
+          "sha256": "27641da7ade06dde45cf620a30fd2067b1df19b9c606c852b5992441c1ddbec3",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-IE/IE-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "IS": {
+      "version": "IS-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "IS",
+      "title": "Islanda (toată țara)",
+      "source": "https://download.geofabrik.de/europe/iceland-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "IS.map.mbtiles",
+          "bytes": 203104256,
+          "sha256": "e3c3751fcdf61efd56a4b2819d71bb623f25305d6d9263b54a79c94430367c49",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IS-2026-11-02/IS.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "IS.valhalla.tar",
+          "bytes": 45506560,
+          "sha256": "3663d03fa8c068d8b51d4b907c43dadca0e96ecf86b14db475b431505516b995",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IS-2026-11-02/IS.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "IS.search.sqlite",
+          "bytes": 27824128,
+          "sha256": "bfb07e70fb25fbb2ea55261d450e3d08f383ea3900b2d55198956d4dcf036def",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IS-2026-11-02/IS.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "IS.pois.sqlite",
+          "bytes": 2260992,
+          "sha256": "abe1c8e49193ea1844c872e7b02c8b9e2166995c928584f1e76c327d9fb23998",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/IS-2026-11-02/IS.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "IS-restrictions.zip",
+          "bytes": 505372,
+          "sha256": "10e7b791609f325fcc3dc613ac769a6ef81a377a42ba4a9f1091de53c191c97d",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-IS/IS-restrictions.zip",
           "osmDate": "2026-11-03"
         }
       ]
@@ -737,6 +1823,52 @@
         }
       ]
     },
+    "LT": {
+      "version": "LT-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "LT",
+      "title": "Lituania (toată țara)",
+      "source": "https://download.geofabrik.de/europe/lithuania-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "LT.map.mbtiles",
+          "bytes": 308609024,
+          "sha256": "65df734c41faf9bde3c106d6099ac0f75cba4afce36f919148fca546f5d170bf",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/LT-2026-11-02/LT.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "LT.valhalla.tar",
+          "bytes": 205834240,
+          "sha256": "cfdb3d5b1bb35e328220f61ff4a362147bb95f9c771fef06c75642b5dc13c08d",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/LT-2026-11-02/LT.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "LT.search.sqlite",
+          "bytes": 276340736,
+          "sha256": "a24e2854bb53b8a7ec7f78c9a47ed6b6bec567ccb804d738a10548917a25a7cd",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/LT-2026-11-02/LT.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "LT.pois.sqlite",
+          "bytes": 5509120,
+          "sha256": "3cfdf5e5e518ae6115f06295bfc11e434fb12f83f15f65ecb038a61023c590ba",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/LT-2026-11-02/LT.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "LT-restrictions.zip",
+          "bytes": 573040,
+          "sha256": "23d0d1ec292b210a1eddfd2e0b8d073e7fb55d8110075dc351a18affb64b37ff",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-LT/LT-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
     "LU": {
       "version": "LU-2026-11-02",
       "osmDate": "2026-11-02",
@@ -772,6 +1904,494 @@
           "bytes": 3346432,
           "sha256": "e4e539c9ed6d22332e944e228c71d08ee91c4281bf420a2eeab1cb996cc6f9a6",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/LU-2026-11-02/LU.pois.sqlite"
+        }
+      ]
+    },
+    "LV": {
+      "version": "LV-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "LV",
+      "title": "Letonia (toată țara)",
+      "source": "https://download.geofabrik.de/europe/latvia-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "LV.map.mbtiles",
+          "bytes": 217554944,
+          "sha256": "e5bdecccce2c3a0ef8e7787aee15ab31870de7849cca0d984bbc238dfae0d67f",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/LV-2026-11-02/LV.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "LV.valhalla.tar",
+          "bytes": 179968000,
+          "sha256": "784d6f1a2f29dae0e335117d7c36762b33ff831e43e23fe69c01aed04dbb2ea2",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/LV-2026-11-02/LV.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "LV.search.sqlite",
+          "bytes": 106201088,
+          "sha256": "9320d7dfeb30b25a077265266540a0ffc69c56a0c2c0107bd6ac61abba02aecb",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/LV-2026-11-02/LV.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "LV.pois.sqlite",
+          "bytes": 5091328,
+          "sha256": "2400a9b7c33001c3abb6825572be896d221a8a6bb7c2d637a9d41d2cf4173e0a",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/LV-2026-11-02/LV.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "LV-restrictions.zip",
+          "bytes": 1030716,
+          "sha256": "3f90a5df086686503d7423689a427a5ab638174758f87f5a1a94745e78772118",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-LV/LV-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "MC": {
+      "version": "MC-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "MC",
+      "title": "Monaco",
+      "source": "https://download.geofabrik.de/europe/monaco-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "MC.map.mbtiles",
+          "bytes": 458752,
+          "sha256": "32a95976ae85e15e006b3085805ccfc2275fdd4e91c6aea6fc0a133a2a060d23",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/MC-2026-11-02/MC.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "MC.valhalla.tar",
+          "bytes": 1116160,
+          "sha256": "eb92ad2845f34cd759059ddcb3e84bf9e6e83cfd0fb4a361794346aa23379048",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/MC-2026-11-02/MC.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "MC.search.sqlite",
+          "bytes": 425984,
+          "sha256": "222a52fe0c29b0b349624f99799f76a080dbd86a4fd53b17a8aebc7c52ac6a67",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/MC-2026-11-02/MC.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "MC.pois.sqlite",
+          "bytes": 126976,
+          "sha256": "2ea50e70345cc3b24f505148ea90818061b844df64e6dab007e46b73d2d55dd9",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/MC-2026-11-02/MC.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "MC-restrictions.zip",
+          "bytes": 23010,
+          "sha256": "4f996dbb5a90970013d67d5d6eb01c0234b0f8a64ec9a682ebe863524b473141",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-MC/MC-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "MD": {
+      "version": "MD-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "MD",
+      "title": "Moldova (toată țara)",
+      "source": "https://download.geofabrik.de/europe/moldova-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "MD.map.mbtiles",
+          "bytes": 104599552,
+          "sha256": "abfed9c54c77f313fe35439c12d67d7b23932a56aa65af6209fe9e8f82d95fe2",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/MD-2026-11-02/MD.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "MD.valhalla.tar",
+          "bytes": 118609920,
+          "sha256": "e6497edc642a2756c3fe4077cfe29f61c101702b5dd4f5eae9303c466799291c",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/MD-2026-11-02/MD.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "MD.search.sqlite",
+          "bytes": 209350656,
+          "sha256": "88587c3134e8a94be379789f09cd2761ea5320f3be3342405277af174d8a9b3e",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/MD-2026-11-02/MD.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "MD.pois.sqlite",
+          "bytes": 2764800,
+          "sha256": "6e16da6d8c047cd3aaded12740ce3981b44c8195ce832f61ad4db323e78b7640",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/MD-2026-11-02/MD.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "MD-restrictions.zip",
+          "bytes": 230714,
+          "sha256": "b757c47fb1f1658990e3c7ea2997fe8acb3e3eb7bbd4297cde1765755b9a5f96",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-MD/MD-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "ME": {
+      "version": "ME-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "ME",
+      "title": "Muntenegru (toată țara)",
+      "source": "https://download.geofabrik.de/europe/montenegro-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "ME.map.mbtiles",
+          "bytes": 49463296,
+          "sha256": "51c6346424c614650c1279020ee846055904eb52626a0e7549345fe3b0da2275",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ME-2026-11-02/ME.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "ME.valhalla.tar",
+          "bytes": 32040960,
+          "sha256": "f4f34341cc05dfc5cd441b5ae2a4b0843d939c1452c9fe6288e99212ebecd26f",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ME-2026-11-02/ME.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "ME.search.sqlite",
+          "bytes": 4919296,
+          "sha256": "7739e556ab3a7494c348f09eacb56cb6f1a4f5be0248edc1a1845add57477e96",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ME-2026-11-02/ME.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "ME.pois.sqlite",
+          "bytes": 1294336,
+          "sha256": "879f751c2f50afe0b05d24a5c2efc15c7c1d9ee46eff286f7f81bb82791b9894",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/ME-2026-11-02/ME.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "ME-restrictions.zip",
+          "bytes": 161713,
+          "sha256": "b09ee1ff70c601f08ccbd1c8e8725f03fd882b26217b1a2e8a92038b787157a9",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-ME/ME-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "MK": {
+      "version": "MK-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "MK",
+      "title": "Macedonia de Nord (toată țara)",
+      "source": "https://download.geofabrik.de/europe/macedonia-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "MK.map.mbtiles",
+          "bytes": 47128576,
+          "sha256": "041f7fb7d16f97ffcdee2872a0e4fa1326c2fd14545f2029baa856582faca68d",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/MK-2026-11-02/MK.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "MK.valhalla.tar",
+          "bytes": 37017600,
+          "sha256": "2dd7dec7e1575a262dbf2210aec99c02543dcfb00ef8d36ee15e3d2bf7511075",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/MK-2026-11-02/MK.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "MK.search.sqlite",
+          "bytes": 8359936,
+          "sha256": "918f63621d99132e1d033b06edaa85128dee1755e0ac488f49bbc6e50e7956c0",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/MK-2026-11-02/MK.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "MK.pois.sqlite",
+          "bytes": 1339392,
+          "sha256": "b40e3cbfc7642b26d121ad4961720788f1976f52021d1c43fb53911d976c3045",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/MK-2026-11-02/MK.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "MK-restrictions.zip",
+          "bytes": 242467,
+          "sha256": "7c137eaacb6f22a8b34661e976f59d2f4878c2c9c1ca438d846d399a50588a5a",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-MK/MK-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "MT": {
+      "version": "MT-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "MT",
+      "title": "Malta (toată țara)",
+      "source": "https://download.geofabrik.de/europe/malta-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "MT.map.mbtiles",
+          "bytes": 6488064,
+          "sha256": "1bd41eea8faa691ecc453e2c4b97ae4c435368fade18535ffa4efa31be297f29",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/MT-2026-11-02/MT.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "MT.valhalla.tar",
+          "bytes": 12871680,
+          "sha256": "c3be789281a7b2e558ba4fb102759927c5b81f714ba749c8dc5b419c37d20d35",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/MT-2026-11-02/MT.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "MT.search.sqlite",
+          "bytes": 4104192,
+          "sha256": "b8af05bba8e3da52fff3a8c2e2f4f3fb7c37a9980ec208ac5645b034c26df3c7",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/MT-2026-11-02/MT.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "MT.pois.sqlite",
+          "bytes": 835584,
+          "sha256": "c05ae9a12335c558d81230d895b596396b87e92a0f30000d6a4939a780baff9d",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/MT-2026-11-02/MT.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "MT-restrictions.zip",
+          "bytes": 153417,
+          "sha256": "99034f41307401a7f892aa9bfa075e0b7f684725baf42ab121f206f14cee293a",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-MT/MT-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "NL": {
+      "version": "NL-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "NL",
+      "title": "Olanda (toată țara)",
+      "source": "https://download.geofabrik.de/europe/netherlands-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "NL.map.mbtiles",
+          "bytes": 698081280,
+          "sha256": "c869fcf24803f6724f794f2b2d41b9e0db4de3f9498479bfd6f00e999b2c0c84",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/NL-2026-11-02/NL.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "NL.valhalla.tar",
+          "bytes": 923760640,
+          "sha256": "27b188a37884d64c5e25d4bd1ac174a551aab8fcac6f45c89f094bab837e5620",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/NL-2026-11-02/NL.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "NL.search.sqlite",
+          "bytes": 1568149504,
+          "sha256": "4f48175b90d5823da515c27309e28ff80e810025536e016710923ed42ac995f9",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/NL-2026-11-02/NL.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "NL.pois.sqlite",
+          "bytes": 71979008,
+          "sha256": "78563e36f6aa3bb0bd4fd7225d50e20a4b39bce657441a65dea73ad6d1daf07c",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/NL-2026-11-02/NL.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "NL-restrictions.zip",
+          "bytes": 12743147,
+          "sha256": "bd8231b52f40ef3aeef2bb4229f0733c5b86396291b11e30d294c318ec330d8e",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-NL/NL-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "NO": {
+      "version": "NO-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "NO",
+      "title": "Norvegia (toată țara)",
+      "source": "https://download.geofabrik.de/europe/norway-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "NO.map.mbtiles",
+          "bytes": 2223116288,
+          "sha256": "8ff667845f1796f2ad85949c2fdba22c5b0567b04140859d079b915efe534193",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/NO-2026-11-02/NO.map.mbtiles.000",
+          "chunks": [
+            {
+              "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/NO-2026-11-02/NO.map.mbtiles.000",
+              "bytes": 1992294400,
+              "sha256": "16479eacceb207eab43450f9ee7f4b1451a5024eab1568a2ddeb11d9837586fe",
+              "file": "NO.map.mbtiles.000"
+            },
+            {
+              "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/NO-2026-11-02/NO.map.mbtiles.001",
+              "bytes": 230821888,
+              "sha256": "b129edc31c3a7eaf78fda3ea20fc29c7c0928f4a77ac2c727e057ee365138c87",
+              "file": "NO.map.mbtiles.001"
+            }
+          ]
+        },
+        {
+          "kind": "routing",
+          "file": "NO.valhalla.tar",
+          "bytes": 692971520,
+          "sha256": "7da17fa3503b7740c5a4539d525951ef234e101d9ca97954f98428e91d3f97e3",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/NO-2026-11-02/NO.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "NO.search.sqlite",
+          "bytes": 442339328,
+          "sha256": "29ae07a62b883335a68f37cdf580355506b36b6b00e5d738d2dfe2b908af5438",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/NO-2026-11-02/NO.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "NO.pois.sqlite",
+          "bytes": 15020032,
+          "sha256": "ecfa52e6537d1ce870da37990663bb52a52e6ee98475d9a33cbc04040f9c6857",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/NO-2026-11-02/NO.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "NO-restrictions.zip",
+          "bytes": 7903836,
+          "sha256": "5e3005a3a384a9f250749dea9a33a5911f6d6074f4403e6f55b63797842d4c31",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-NO/NO-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "PL": {
+      "version": "PL-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "PL",
+      "title": "Polonia (toată țara)",
+      "source": "https://download.geofabrik.de/europe/poland-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "PL.map.mbtiles",
+          "bytes": 1859489792,
+          "sha256": "5b60b522e94ede1f7ba0f103b768273fe22cb1c37b1823f52aae6376eacd4981",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/PL-2026-11-02/PL.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "PL.valhalla.tar",
+          "bytes": 2300590080,
+          "sha256": "d62a3461c37eaf8f2af5eba07ff188a4852cf3f03206fb4446c034c5c671ba5a",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/PL-2026-11-02/PL.valhalla.tar.000",
+          "chunks": [
+            {
+              "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/PL-2026-11-02/PL.valhalla.tar.000",
+              "bytes": 1992294400,
+              "sha256": "c4d97b56855f36ad5e682d06f3efc42d79395e619d1095dbed8e15006e7b981d",
+              "file": "PL.valhalla.tar.000"
+            },
+            {
+              "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/PL-2026-11-02/PL.valhalla.tar.001",
+              "bytes": 308295680,
+              "sha256": "f86a741c39acdd213aa82eb26f2f3022202087c9e48fcf8fd905e9846a851e9f",
+              "file": "PL.valhalla.tar.001"
+            }
+          ]
+        },
+        {
+          "kind": "search",
+          "file": "PL.search.sqlite",
+          "bytes": 1507004416,
+          "sha256": "ab630c98f22d9544c8e7d1686e0dd6851754a0a9e7c01094c33bb3aa6c7d6af4",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/PL-2026-11-02/PL.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "PL.pois.sqlite",
+          "bytes": 93179904,
+          "sha256": "886f06ea3cc2e2591ceee14823701e5cbdd56b1ac5ab564d7880fb3165c7277c",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/PL-2026-11-02/PL.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "PL-restrictions.zip",
+          "bytes": 20228129,
+          "sha256": "25c6ff30a4b98a01886c808cb2e08f8dfdc236478aea1209b51743ae06689231",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-PL/PL-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "PT": {
+      "version": "PT-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "PT",
+      "title": "Portugalia (toată țara)",
+      "source": "https://download.geofabrik.de/europe/portugal-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "PT.map.mbtiles",
+          "bytes": 408887296,
+          "sha256": "79c489aa375e27771163c18f850912bab866a4652c3c0bd6a163305e589423cd",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/PT-2026-11-02/PT.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "PT.valhalla.tar",
+          "bytes": 569692160,
+          "sha256": "70ff3e886b4a4d512686c55ea737c0a9b746778de8a0acacefe5a4c863488e2f",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/PT-2026-11-02/PT.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "PT.search.sqlite",
+          "bytes": 193273856,
+          "sha256": "1979be3b583ac00a9fb88390b1b312366350a05c6220b26e7a8086f7e52cc019",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/PT-2026-11-02/PT.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "PT.pois.sqlite",
+          "bytes": 33239040,
+          "sha256": "1637a444574e5d6272735f2a0c1613cab57a60ef18bff145b9a864d0f81ecaea",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/PT-2026-11-02/PT.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "PT-restrictions.zip",
+          "bytes": 5009191,
+          "sha256": "690fd2a2e6bb90aa23fb342fe7bed26e22346c058706e68b366f6b31675a9dba",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-PT/PT-restrictions.zip",
+          "osmDate": "2026-11-03"
         }
       ]
     },
@@ -820,6 +2440,274 @@
       ],
       "country": "RO",
       "title": "România (toată țara)"
+    },
+    "RS": {
+      "version": "RS-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "RS",
+      "title": "Serbia și Kosovo",
+      "source": "https://download.geofabrik.de/europe/serbia-latest.osm.pbf https://download.geofabrik.de/europe/kosovo-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "RS.map.mbtiles",
+          "bytes": 298180608,
+          "sha256": "d5f25a08cdc232e322dd1deb1e39d4ac9e7d09bc8e7f62594eadbc09ec6a1421",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/RS-2026-11-02/RS.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "RS.valhalla.tar",
+          "bytes": 257679360,
+          "sha256": "3742538cd61a00f8dbb31bfdbd0c7079582f9ad813e193d397356cf0598ee542",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/RS-2026-11-02/RS.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "RS.search.sqlite",
+          "bytes": 648900608,
+          "sha256": "b87e87196cc16e45a2dc94d2b067c93ffb1167ddff9e2e1f80e4f9c96cba16ca",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/RS-2026-11-02/RS.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "RS.pois.sqlite",
+          "bytes": 12357632,
+          "sha256": "ce8a2ccd577024b247509bd64970eddb26b749e3ec85a10be406da5d70b02707",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/RS-2026-11-02/RS.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "RS-restrictions.zip",
+          "bytes": 617149,
+          "sha256": "0c24c5abce2ba8fc506737c3524f9e8a76f2ab505d482f9ffc1e1a80fcbed86b",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-RS/RS-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "SE": {
+      "version": "SE-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "SE",
+      "title": "Suedia (toată țara)",
+      "source": "https://download.geofabrik.de/europe/sweden-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "SE.map.mbtiles",
+          "bytes": 1737879552,
+          "sha256": "5a8d0eb63e5c1b83126d70a1c4a12eca00df1d254d99c2b9cee55b221ec32f37",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/SE-2026-11-02/SE.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "SE.valhalla.tar",
+          "bytes": 868515840,
+          "sha256": "419cabe099e9f64ce187283e3f4f8ebe80722e54ce1f8b1a909932af16c3e2a6",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/SE-2026-11-02/SE.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "SE.search.sqlite",
+          "bytes": 298012672,
+          "sha256": "10b511cf6f37ff3e43539eddf91270863e4da16a9a09b324078048f13013baf5",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/SE-2026-11-02/SE.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "SE.pois.sqlite",
+          "bytes": 29892608,
+          "sha256": "03baee538ee53c88c92a09d7b681938bea91028ae2565bcb486a8582bac42ea6",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/SE-2026-11-02/SE.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "SE-restrictions.zip",
+          "bytes": 15285301,
+          "sha256": "a7a2d8753d14a526f7556329649a66ff320cb3d1f5aa0c1914ca2934329b5db9",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-SE/SE-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "SI": {
+      "version": "SI-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "SI",
+      "title": "Slovenia (toată țara)",
+      "source": "https://download.geofabrik.de/europe/slovenia-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "SI.map.mbtiles",
+          "bytes": 231264256,
+          "sha256": "add548166bd9292475e88b75ef1de530263718e63139c588a21a0f39e05eb50c",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/SI-2026-11-02/SI.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "SI.valhalla.tar",
+          "bytes": 172943360,
+          "sha256": "a5e878e613f1e98d82aced7287a3bf6cf01575ab3db9f4a5ac070219a401a715",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/SI-2026-11-02/SI.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "SI.search.sqlite",
+          "bytes": 133206016,
+          "sha256": "a56084b7b5e0b8971a48182d7821098f95b95a53facf5c44e2ed952a6a9dbf68",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/SI-2026-11-02/SI.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "SI.pois.sqlite",
+          "bytes": 6541312,
+          "sha256": "cd01dd7b2442154e52571916b42176edb0a87967853722d75db02cf0123b80b7",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/SI-2026-11-02/SI.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "SI-restrictions.zip",
+          "bytes": 2184671,
+          "sha256": "e0a06cd3048371b644705c4111a8a81a18beb937b1089e08a0868145e45eff66",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-SI/SI-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "SK": {
+      "version": "SK-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "SK",
+      "title": "Slovacia (toată țara)",
+      "source": "https://download.geofabrik.de/europe/slovakia-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "SK.map.mbtiles",
+          "bytes": 286318592,
+          "sha256": "0bf9b68201fb5f85a152803b5bf1b08202390c570de3c5dd554e49116129bb8d",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/SK-2026-11-02/SK.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "SK.valhalla.tar",
+          "bytes": 339773440,
+          "sha256": "306c3a4e43263f5557f4e2fc8d23acb05d53630193d948fc9ed27fa94b74467d",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/SK-2026-11-02/SK.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "SK.search.sqlite",
+          "bytes": 266690560,
+          "sha256": "4793c935af088ff8e20bef8cb6ee78df824d1b2a65d5bcbdf10db1968387ecfb",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/SK-2026-11-02/SK.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "SK.pois.sqlite",
+          "bytes": 17055744,
+          "sha256": "7d19901717524745ca32aba1cbc9f81f4127b6e634a1cd1ad0908864292be4a8",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/SK-2026-11-02/SK.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "SK-restrictions.zip",
+          "bytes": 3272725,
+          "sha256": "495d1409e06aaaf29fdcb5c5c6af7c540cee89299ab4c3856981d2e516d85985",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-SK/SK-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "TR": {
+      "version": "TR-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "TR",
+      "title": "Turcia (toată țara)",
+      "source": "https://download.geofabrik.de/europe/turkey-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "TR.map.mbtiles",
+          "bytes": 947417088,
+          "sha256": "f825f95b7b390e3bf80181efe0112834320e905973fa10a02645d068b2b7109d",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/TR-2026-11-02/TR.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "TR.valhalla.tar",
+          "bytes": 1125550080,
+          "sha256": "3864746f257c457a0a93f237fc7f4ae08b3e39e1ab9158635f153896e545c65a",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/TR-2026-11-02/TR.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "TR.search.sqlite",
+          "bytes": 146616320,
+          "sha256": "e85dd0fe4c611199c522e642e392c508e8902a13e1a7281d4d48b0f23775f030",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/TR-2026-11-02/TR.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "TR.pois.sqlite",
+          "bytes": 22876160,
+          "sha256": "411788dbc123b8ce9ed998d10ea8fc14986ff93d2c5439543d821885772b84cc",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/TR-2026-11-02/TR.pois.sqlite"
+        },
+        {
+          "kind": "restrictions",
+          "file": "TR-restrictions.zip",
+          "bytes": 2802579,
+          "sha256": "1aef1d6fd1ffadeee4698e3c2c646c1b16ead78bcb0a9c1af7b25a1dbcaec568",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-TR/TR-restrictions.zip",
+          "osmDate": "2026-11-03"
+        }
+      ]
+    },
+    "UA": {
+      "version": "UA-2026-11-02",
+      "osmDate": "2026-11-02",
+      "country": "UA",
+      "title": "Ucraina (toată țara)",
+      "source": "https://download.geofabrik.de/europe/ukraine-latest.osm.pbf",
+      "license": "© OpenStreetMap contributors · ODbL 1.0",
+      "parts": [
+        {
+          "kind": "map",
+          "file": "UA.map.mbtiles",
+          "bytes": 1390407680,
+          "sha256": "706c5de67e99a7bb68b047fe7be12d0d0a6e1c54dc76047fc706832b449d734c",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/UA-2026-11-02/UA.map.mbtiles"
+        },
+        {
+          "kind": "routing",
+          "file": "UA.valhalla.tar",
+          "bytes": 1003386880,
+          "sha256": "5aeeb058bead2b0d2710b2cd3798f83b445241c5e87c96df3f4fef9e843af94f",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/UA-2026-11-02/UA.valhalla.tar"
+        },
+        {
+          "kind": "search",
+          "file": "UA.search.sqlite",
+          "bytes": 531845120,
+          "sha256": "67e991713c945c796a8cbe4959a290d0f3db0981f865c78c359e02ba93168c67",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/UA-2026-11-02/UA.search.sqlite"
+        },
+        {
+          "kind": "pois",
+          "file": "UA.pois.sqlite",
+          "bytes": 31432704,
+          "sha256": "2958a1220e0b2b26c6900f6c3f761d641b5772b12af96da6e66171a672dee1e6",
+          "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/UA-2026-11-02/UA.pois.sqlite"
+        }
+      ]
     }
   },
   "radars": {
