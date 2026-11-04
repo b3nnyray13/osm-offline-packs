@@ -60,7 +60,7 @@ def main():
     out = {k: os.path.join(work, f"{pack}.{k}") for k in ("map.mbtiles", "valhalla.tar", "search.sqlite", "pois.sqlite")}
 
     run("java", f"-Xmx{os.environ.get('PLANETILER_HEAP', '10g')}", "-jar", "planetiler.jar", "--osm-path=pack.osm.pbf",
-        f"--output={pack}.map.mbtiles", "--force", "--nodemap-type=array", "--storage=mmap", cwd=work)
+        f"--output={pack}.map.mbtiles", "--force", "--nodemap-type=sparsearray", "--storage=mmap", cwd=work)
     shutil.rmtree(os.path.join(work, "data"), ignore_errors=True)
 
     py = os.environ.get("VALHALLA_PY", sys.executable)
