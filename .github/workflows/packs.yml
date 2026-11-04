@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       packs:
-        description: "Pack ids from regions.json, comma separated, or all"
+        description: "Pack ids from regions.json, comma separated, all, or missing"
         default: "DE-NO,DE-OS,DE-WE,DE-SU,BE,NL"
   push:
     branches: [main]
@@ -26,7 +26,7 @@ jobs:
         run: |
           want="${{ github.event.inputs.packs || 'all' }}"
           # A changed regions.json builds only the packs not yet in the catalog.
-          if [ "${{ github.event_name }}" = push ]; then m=$(jq -c --slurpfile c catalog.json 'map(select(.id as $i | $c[0].countries | has($i) | not))' regions.json)
+          if [ "${{ github.event_name }}" = push ] || [ "$want" = missing ]; then m=$(jq -c --slurpfile c catalog.json 'map(select(.id as $i | $c[0].countries | has($i) | not))' regions.json)
           elif [ "$want" = all ]; then m=$(jq -c . regions.json)
           else m=$(jq -c --arg w "$want" '($w | split(",")) as $ids | map(select(.id as $i | $ids | index($i)))' regions.json); fi
           echo "matrix=$m" >> "$GITHUB_OUTPUT"
