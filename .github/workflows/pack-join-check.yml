@@ -23,6 +23,7 @@ jobs:
           done
       - name: Trips
         run: |
+          mkdir -p valhalla_tiles
           # The results as a notice, readable on the run page.
           report() { python scripts/check_pack_join.py "$@" > out.txt 2>&1 || true; echo "::notice::$(tail -n 40 out.txt | cut -c1-170 | sed ':a;N;$!ba;s/\n/%0A/g')"; }
           report ME.valhalla.tar AL.valhalla.tar 42.4304,19.2594 41.3275,19.8187 42.2807,18.8400 40.7086,19.9520
