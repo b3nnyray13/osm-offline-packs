@@ -1,8 +1,8 @@
-name: Weekly vehicle restrictions
+name: Daily vehicle restrictions
 
 on:
   schedule:
-    - cron: "0 1 * * 0"
+    - cron: "0 1 * * *"
   workflow_dispatch:
 
 permissions:
