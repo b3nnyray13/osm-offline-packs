@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [scripts/check_pack_join.py]
+    paths: [scripts/check_pack_join.py, .github/workflows/pack-join-check.yml]
 
 jobs:
   check:
@@ -21,7 +21,9 @@ jobs:
           for p in ME-2026-11-02/ME AL-2026-11-02/AL SI-2026-11-02/SI HR-2026-11-02/HR; do
             curl -fsSL --retry 5 -O "https://github.com/${{ github.repository }}/releases/download/$p.valhalla.tar"
           done
-      - name: Montenegro to Albania
-        run: python scripts/check_pack_join.py ME.valhalla.tar AL.valhalla.tar 42.4304,19.2594 41.3275,19.8187 42.2807,18.8400 40.7086,19.9520
-      - name: Slovenia to Croatia
-        run: python scripts/check_pack_join.py SI.valhalla.tar HR.valhalla.tar 46.0569,14.5058 45.8150,15.9819 45.5469,13.7294 45.3271,14.4422
+      - name: Trips
+        run: |
+          # The results as a notice, readable on the run page.
+          report() { python scripts/check_pack_join.py "$@" > out.txt 2>&1 || true; echo "::notice::$(tail -n 40 out.txt | cut -c1-170 | sed ':a;N;$!ba;s/\n/%0A/g')"; }
+          report ME.valhalla.tar AL.valhalla.tar 42.4304,19.2594 41.3275,19.8187 42.2807,18.8400 40.7086,19.9520
+          report SI.valhalla.tar HR.valhalla.tar 46.0569,14.5058 45.8150,15.9819 45.5469,13.7294 45.3271,14.4422
