@@ -39,5 +39,5 @@
  {"id": "MT", "title": "Malta (toată țara)", "extracts": "europe/malta"},
  {"id": "IS", "title": "Islanda (toată țara)", "extracts": "europe/iceland"},
  {"id": "BY", "title": "Belarus (toată țara)", "extracts": "europe/belarus"},
- {"id": "MC", "title": "Monaco (tot principatul)", "extracts": "europe/monaco"}
+ {"id": "MC", "title": "Monaco", "extracts": "europe/monaco"}
 ]
