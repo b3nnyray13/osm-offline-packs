@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: daily-radars
+  cancel-in-progress: false
+
 jobs:
   radars:
     runs-on: ubuntu-latest
@@ -31,12 +35,4 @@ jobs:
           gh release view radars >/dev/null 2>&1 || gh release create radars --title "Speed cameras (daily)" --notes "Speed cameras in Europe from OpenStreetMap, rebuilt every day. © OpenStreetMap contributors, ODbL 1.0."
           gh release upload radars out/radars-europe.geojson.gz out/legal-speeds.tsv --clobber
       - name: Update catalog
-        run: |
-          git pull --ff-only
-          python scripts/update_catalog.py out
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalog.json
-          git diff --cached --quiet || git commit -m "Speed cameras $(date -u +%F)"
-          # Several workflows write the catalog: rebase on the newest one and retry instead of queueing them.
-          for i in 1 2 3 4 5; do git push && break; sleep $((i * 15)); git pull --rebase; done
+        run: sh scripts/publish_catalog.sh out "Speed cameras $(date -u +%F)"

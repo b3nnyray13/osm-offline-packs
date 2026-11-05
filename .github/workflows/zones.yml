@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: weekly-zones
+  cancel-in-progress: false
+
 jobs:
   zones:
     runs-on: ubuntu-latest
@@ -30,11 +34,4 @@ jobs:
           gh release view radars >/dev/null 2>&1 || gh release create radars --title "Speed cameras (daily)" --notes "Open data from OpenStreetMap. © OpenStreetMap contributors, ODbL 1.0."
           for i in 1 2 3 4 5; do gh release upload radars out/access-zones-europe.geojson.gz --clobber && break; sleep $((i * 20)); done
       - name: Update catalog
-        run: |
-          git pull --ff-only
-          python scripts/update_catalog.py out
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalog.json
-          git diff --cached --quiet || git commit -m "Access zones $(date -u +%F)"
-          for i in 1 2 3 4 5; do git push && break; sleep $((i * 15)); git pull --rebase; done
+        run: sh scripts/publish_catalog.sh out "Access zones $(date -u +%F)"
