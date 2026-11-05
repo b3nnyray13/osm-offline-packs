@@ -1,0 +1,37 @@
+name: Weekly access zones
+
+on:
+  schedule:
+    - cron: "15 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  zones:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install shapely
+      - name: Build the list from OpenStreetMap
+        run: python scripts/build_access_zones.py out
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view radars >/dev/null 2>&1 || gh release create radars --title "Speed cameras (daily)" --notes "Open data from OpenStreetMap. © OpenStreetMap contributors, ODbL 1.0."
+          for i in 1 2 3 4 5; do gh release upload radars out/access-zones-europe.geojson.gz --clobber && break; sleep $((i * 20)); done
+      - name: Update catalog
+        run: |
+          git pull --ff-only
+          python scripts/update_catalog.py out
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog.json
+          git diff --cached --quiet || git commit -m "Access zones $(date -u +%F)"
+          for i in 1 2 3 4 5; do git push && break; sleep $((i * 15)); git pull --rebase; done
