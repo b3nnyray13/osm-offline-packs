@@ -39,7 +39,7 @@
           "kind": "restrictions",
           "file": "AD-restrictions.zip",
           "bytes": 113513,
-          "sha256": "14ad4ce9667a9850e788001d1aa1d5ba984b7802da670b2cf9ccd0b1851f8391",
+          "sha256": "2b885900b94395840e88b2655fecc5736ff33c288419f7b42bbd5b2c7d3eb4d7",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-AD/AD-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -87,7 +87,7 @@
           "kind": "restrictions",
           "file": "AL-restrictions.zip",
           "bytes": 462247,
-          "sha256": "1c44695e447a12a5b18acec5deec2c36f5edd3384209df6451c7202bc73f97aa",
+          "sha256": "622679788794fb7d2850b6d45a141665a8513f4227192f0d0d6a598283234f58",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-AL/AL-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -133,7 +133,7 @@
           "kind": "restrictions",
           "file": "AT-restrictions.zip",
           "bytes": 10857431,
-          "sha256": "6ba9c08077620a97463b52865f8485120ae692d4e12b9ec194cac316cf62bcd0",
+          "sha256": "bc72dc10cc511fa19347b7e69f895dcefeede207857c3c143c3fe81ea9e17507",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-AT/AT-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -179,7 +179,7 @@
           "kind": "restrictions",
           "file": "BA-restrictions.zip",
           "bytes": 624612,
-          "sha256": "a83dbb0d1a0c5d45a32ba91333d12e73df2f7fa1d2c3cd3586bc7e192564595b",
+          "sha256": "b99fcfab8e2ce4ae82664c33ed1598139c505655469c005ebe9e3e6bdb49dd0c",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-BA/BA-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -225,7 +225,7 @@
           "kind": "restrictions",
           "file": "BE-restrictions.zip",
           "bytes": 7502675,
-          "sha256": "1c569dd5aa4310519f031929aaed6fd6fcbcc6229fc1b570847f46c64bd810b5",
+          "sha256": "611f4f465be99d5ed49cd847f8762e344ff201a07a539ec98a3821835b108b5c",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-BE/BE-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -271,7 +271,7 @@
           "kind": "restrictions",
           "file": "BG-restrictions.zip",
           "bytes": 1464214,
-          "sha256": "7a2f871c38883a70677cb916f3b1a5291735f3d78083715e61983905920a685a",
+          "sha256": "6547732238b5706f4e9a136baf1462e2adbbf36962f98cd7508a4d0b4cb6836c",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-BG/BG-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -317,7 +317,7 @@
           "kind": "restrictions",
           "file": "BY-restrictions.zip",
           "bytes": 2982765,
-          "sha256": "b7b2f39a5c642352cc8c9155a03c655c75b23525b05815228cd4227a9bb6a5a4",
+          "sha256": "8053d61bca23265cc070061e5c67913e4df9b18b3b36556af450431114535bb3",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-BY/BY-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -363,7 +363,7 @@
           "kind": "restrictions",
           "file": "CH-restrictions.zip",
           "bytes": 12222860,
-          "sha256": "903ecc09331d3deb9a37ffb420bd703dab4a45390135e3af2b09f89f069a3acb",
+          "sha256": "7c803794f4ec19e2c945be7ba0e7f2b77ed5916d579c2541e0460a0b10e2e504",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-CH/CH-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -409,7 +409,7 @@
           "kind": "restrictions",
           "file": "CY-restrictions.zip",
           "bytes": 420379,
-          "sha256": "cefa7ec9efc00e814f25e839e2621b03b94a6abb276d41ad6e571127e32f2133",
+          "sha256": "82b05276f7f013813ba8061e4eec78fa89080598769c7d299f022b6135535525",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-CY/CY-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -455,7 +455,7 @@
           "kind": "restrictions",
           "file": "CZ-restrictions.zip",
           "bytes": 7656349,
-          "sha256": "a0d6118bcf93eeb0c6f282b1d297b8b2c68f12050729b825299bdf51e912dc3f",
+          "sha256": "074058667b6865e600c28056487101abf6548528604b88d359057ab452b8c56a",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-CZ/CZ-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -501,7 +501,7 @@
           "kind": "restrictions",
           "file": "DE-restrictions.zip",
           "bytes": 63456608,
-          "sha256": "2a632eea5c9c4b41a5472eec69e22cd2a7cb95cc0a85956d1b332259d9c48017",
+          "sha256": "d9b0634264ea793d902fe96aa367ed02fcf48db2b2e882fcede93695b8aa3028",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-DE/DE-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -547,7 +547,7 @@
           "kind": "restrictions",
           "file": "DE-restrictions.zip",
           "bytes": 63456608,
-          "sha256": "2a632eea5c9c4b41a5472eec69e22cd2a7cb95cc0a85956d1b332259d9c48017",
+          "sha256": "d9b0634264ea793d902fe96aa367ed02fcf48db2b2e882fcede93695b8aa3028",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-DE/DE-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -593,7 +593,7 @@
           "kind": "restrictions",
           "file": "DE-restrictions.zip",
           "bytes": 63456608,
-          "sha256": "2a632eea5c9c4b41a5472eec69e22cd2a7cb95cc0a85956d1b332259d9c48017",
+          "sha256": "d9b0634264ea793d902fe96aa367ed02fcf48db2b2e882fcede93695b8aa3028",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-DE/DE-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -653,7 +653,7 @@
           "kind": "restrictions",
           "file": "DE-restrictions.zip",
           "bytes": 63456608,
-          "sha256": "2a632eea5c9c4b41a5472eec69e22cd2a7cb95cc0a85956d1b332259d9c48017",
+          "sha256": "d9b0634264ea793d902fe96aa367ed02fcf48db2b2e882fcede93695b8aa3028",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-DE/DE-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -699,7 +699,7 @@
           "kind": "restrictions",
           "file": "DK-restrictions.zip",
           "bytes": 3418122,
-          "sha256": "b4a4b14f66c307c6892e818bebec56f005d46b7321bfbe7ffeece04b2de81af3",
+          "sha256": "7647c6abfc613eea79644907ef75dd474b87bbd66255ffaa4c3955cb5341c066",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-DK/DK-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -745,7 +745,7 @@
           "kind": "restrictions",
           "file": "EE-restrictions.zip",
           "bytes": 759155,
-          "sha256": "7efc57e869d14351fface9081e80948c8ba0e01ec11c1e0d6049d65d69447bf0",
+          "sha256": "8cf30ea9aabd471be1de27624c8c21701e68064fa9f2894677bdad8e7e71fa13",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-EE/EE-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -791,7 +791,7 @@
           "kind": "restrictions",
           "file": "ES-restrictions.zip",
           "bytes": 32352152,
-          "sha256": "5b8fe6b9ba24742bd1af4e34ae4230d2b5d83e9c212b97773f4e4fcf30655a5d",
+          "sha256": "1a84204295ebb59179644a59c6cb48dafdb2c4e86e31ce5b05cc473eb11364ed",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-ES/ES-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -837,7 +837,7 @@
           "kind": "restrictions",
           "file": "ES-restrictions.zip",
           "bytes": 32352152,
-          "sha256": "5b8fe6b9ba24742bd1af4e34ae4230d2b5d83e9c212b97773f4e4fcf30655a5d",
+          "sha256": "1a84204295ebb59179644a59c6cb48dafdb2c4e86e31ce5b05cc473eb11364ed",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-ES/ES-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -883,7 +883,7 @@
           "kind": "restrictions",
           "file": "ES-restrictions.zip",
           "bytes": 32352152,
-          "sha256": "5b8fe6b9ba24742bd1af4e34ae4230d2b5d83e9c212b97773f4e4fcf30655a5d",
+          "sha256": "1a84204295ebb59179644a59c6cb48dafdb2c4e86e31ce5b05cc473eb11364ed",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-ES/ES-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -929,7 +929,7 @@
           "kind": "restrictions",
           "file": "ES-restrictions.zip",
           "bytes": 32352152,
-          "sha256": "5b8fe6b9ba24742bd1af4e34ae4230d2b5d83e9c212b97773f4e4fcf30655a5d",
+          "sha256": "1a84204295ebb59179644a59c6cb48dafdb2c4e86e31ce5b05cc473eb11364ed",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-ES/ES-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -975,7 +975,7 @@
           "kind": "restrictions",
           "file": "ES-restrictions.zip",
           "bytes": 32352152,
-          "sha256": "5b8fe6b9ba24742bd1af4e34ae4230d2b5d83e9c212b97773f4e4fcf30655a5d",
+          "sha256": "1a84204295ebb59179644a59c6cb48dafdb2c4e86e31ce5b05cc473eb11364ed",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-ES/ES-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1021,7 +1021,7 @@
           "kind": "restrictions",
           "file": "ES-restrictions.zip",
           "bytes": 32352152,
-          "sha256": "5b8fe6b9ba24742bd1af4e34ae4230d2b5d83e9c212b97773f4e4fcf30655a5d",
+          "sha256": "1a84204295ebb59179644a59c6cb48dafdb2c4e86e31ce5b05cc473eb11364ed",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-ES/ES-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1067,7 +1067,7 @@
           "kind": "restrictions",
           "file": "FI-restrictions.zip",
           "bytes": 8015351,
-          "sha256": "b2ed3a5bf6add22e097bbf5dc62429eecbde7c78a28edbb26c30711535b0c17e",
+          "sha256": "77dd99b1144725977eb572c59e27b4b133dd0d6943a261d898b264528467eb78",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-FI/FI-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1113,7 +1113,7 @@
           "kind": "restrictions",
           "file": "FR-restrictions.zip",
           "bytes": 48367791,
-          "sha256": "7154a8efcaaa3d1bcb15f71a68c8c098d20b1b8840d68a111c46fe23f6164c26",
+          "sha256": "66145d397d22f99144d7fdf64a156335c5e7485826910a24ecf9aca048b97e5b",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-FR/FR-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1159,7 +1159,7 @@
           "kind": "restrictions",
           "file": "FR-restrictions.zip",
           "bytes": 48367791,
-          "sha256": "7154a8efcaaa3d1bcb15f71a68c8c098d20b1b8840d68a111c46fe23f6164c26",
+          "sha256": "66145d397d22f99144d7fdf64a156335c5e7485826910a24ecf9aca048b97e5b",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-FR/FR-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1205,7 +1205,7 @@
           "kind": "restrictions",
           "file": "FR-restrictions.zip",
           "bytes": 48367791,
-          "sha256": "7154a8efcaaa3d1bcb15f71a68c8c098d20b1b8840d68a111c46fe23f6164c26",
+          "sha256": "66145d397d22f99144d7fdf64a156335c5e7485826910a24ecf9aca048b97e5b",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-FR/FR-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1251,7 +1251,7 @@
           "kind": "restrictions",
           "file": "FR-restrictions.zip",
           "bytes": 48367791,
-          "sha256": "7154a8efcaaa3d1bcb15f71a68c8c098d20b1b8840d68a111c46fe23f6164c26",
+          "sha256": "66145d397d22f99144d7fdf64a156335c5e7485826910a24ecf9aca048b97e5b",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-FR/FR-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1311,7 +1311,7 @@
           "kind": "restrictions",
           "file": "GB-restrictions.zip",
           "bytes": 39712761,
-          "sha256": "276e11f56ccf0b18d6bee8299d2e5f12e595b16ea2c552360a5fe33f5d3afac0",
+          "sha256": "9d9ffbc85d18fc98dc304f2885e99dd76458665b8131326f5631a125737a596d",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-GB/GB-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1357,7 +1357,7 @@
           "kind": "restrictions",
           "file": "GB-restrictions.zip",
           "bytes": 39712761,
-          "sha256": "276e11f56ccf0b18d6bee8299d2e5f12e595b16ea2c552360a5fe33f5d3afac0",
+          "sha256": "9d9ffbc85d18fc98dc304f2885e99dd76458665b8131326f5631a125737a596d",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-GB/GB-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1403,7 +1403,7 @@
           "kind": "restrictions",
           "file": "GR-restrictions.zip",
           "bytes": 2857262,
-          "sha256": "4631d17c74e1caa1109b6a988acf9b1594619360315e463f944488bd312f31e6",
+          "sha256": "bcf4cd9f9152f62a1afa2d55b3c66399a44d51fe9ca6d5668d38a7663d4d2886",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-GR/GR-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1449,7 +1449,7 @@
           "kind": "restrictions",
           "file": "HR-restrictions.zip",
           "bytes": 1735550,
-          "sha256": "464b3a9c883bc7d5349a76a8b9ec9fb7d444982e3b09b99ac755fd0a3e4d2e55",
+          "sha256": "a585a3f2bc9b6da698834be7f477d50d9e94b11516ed95859fc359ee233e80b7",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-HR/HR-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1495,7 +1495,7 @@
           "kind": "restrictions",
           "file": "HU-restrictions.zip",
           "bytes": 2776215,
-          "sha256": "2d909449e049067f97070510fdd8c4db75d390cdfd18e9baced79ec7bcad463f",
+          "sha256": "37b96fa6f594fa92e449d9ecdd2aeb7192078905c5b7397eb0e7be5386c0eb2f",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-HU/HU-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1541,7 +1541,7 @@
           "kind": "restrictions",
           "file": "IE-restrictions.zip",
           "bytes": 2485290,
-          "sha256": "d1d2a6eb44d873d11b1adb3c3909a4fac9844808075ce8c072a1fd759869a3a6",
+          "sha256": "896123b9b57a42e651faabbe0da9d5033c44460f9be8bd0fcc5fef672177d3bb",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-IE/IE-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1587,7 +1587,7 @@
           "kind": "restrictions",
           "file": "IS-restrictions.zip",
           "bytes": 505720,
-          "sha256": "33ecfc32a825b6f3745e597e90bf08260708b77db4a2969140ffd76803eadf28",
+          "sha256": "198fea290645ca87ae554b358ffb506e1e21c7743dae29ee71a99fcd7e97d19c",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-IS/IS-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1633,7 +1633,7 @@
           "kind": "restrictions",
           "file": "IT-restrictions.zip",
           "bytes": 37418644,
-          "sha256": "e1a7d5d206c0fd4d673965313a45777bbe6c6ec6d85801a3b8cb0f4abcaedbb7",
+          "sha256": "117834cf9105f546096d287f22332c4ebeac2f072ef14a3e282d4a98a97438ba",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-IT/IT-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1679,7 +1679,7 @@
           "kind": "restrictions",
           "file": "IT-restrictions.zip",
           "bytes": 37418644,
-          "sha256": "e1a7d5d206c0fd4d673965313a45777bbe6c6ec6d85801a3b8cb0f4abcaedbb7",
+          "sha256": "117834cf9105f546096d287f22332c4ebeac2f072ef14a3e282d4a98a97438ba",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-IT/IT-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1725,7 +1725,7 @@
           "kind": "restrictions",
           "file": "IT-restrictions.zip",
           "bytes": 37418644,
-          "sha256": "e1a7d5d206c0fd4d673965313a45777bbe6c6ec6d85801a3b8cb0f4abcaedbb7",
+          "sha256": "117834cf9105f546096d287f22332c4ebeac2f072ef14a3e282d4a98a97438ba",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-IT/IT-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1771,7 +1771,7 @@
           "kind": "restrictions",
           "file": "IT-restrictions.zip",
           "bytes": 37418644,
-          "sha256": "e1a7d5d206c0fd4d673965313a45777bbe6c6ec6d85801a3b8cb0f4abcaedbb7",
+          "sha256": "117834cf9105f546096d287f22332c4ebeac2f072ef14a3e282d4a98a97438ba",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-IT/IT-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1817,7 +1817,7 @@
           "kind": "restrictions",
           "file": "IT-restrictions.zip",
           "bytes": 37418644,
-          "sha256": "e1a7d5d206c0fd4d673965313a45777bbe6c6ec6d85801a3b8cb0f4abcaedbb7",
+          "sha256": "117834cf9105f546096d287f22332c4ebeac2f072ef14a3e282d4a98a97438ba",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-IT/IT-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1863,7 +1863,7 @@
           "kind": "restrictions",
           "file": "LT-restrictions.zip",
           "bytes": 580973,
-          "sha256": "e00c80730afb807d87d26cc3661eeebc0511df8d1ed2fdb96a6f2ba31e5553fe",
+          "sha256": "5d3e3c941d6beeea950254c8b6ddc484065f41101d4f722d0e19cffe468d5113",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-LT/LT-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1909,7 +1909,7 @@
           "kind": "restrictions",
           "file": "LU-restrictions.zip",
           "bytes": 953881,
-          "sha256": "ef3410a71778d1665f00e794bf2ff190858e5e83a94537b9277d93253dafba7a",
+          "sha256": "a820c1c41e6dcba1de0aed67b39516d67eaf93dcdd92f787f8e175e6a915f8c2",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-LU/LU-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -1955,7 +1955,7 @@
           "kind": "restrictions",
           "file": "LV-restrictions.zip",
           "bytes": 1040337,
-          "sha256": "37e4484597e0a22b9e87dd1a530ed95d6f3bfef71175785182c6df4dd5d1b037",
+          "sha256": "bc494a02ac65e69023fa7a912c2fd40451b6795efbc0cb585df8e8f5d1902bd8",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-LV/LV-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2001,7 +2001,7 @@
           "kind": "restrictions",
           "file": "MC-restrictions.zip",
           "bytes": 23255,
-          "sha256": "9a7d84ec48a29c5591574b437838509e95560fcf83d5518b6051e38b3d204c84",
+          "sha256": "d18ad66113289811bd4bca33d878ba7085f3a6fa3c11733bb34a57c71d5b504c",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-MC/MC-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2047,7 +2047,7 @@
           "kind": "restrictions",
           "file": "MD-restrictions.zip",
           "bytes": 232163,
-          "sha256": "e520f2b6f7f24a9a705c83bc32a808952468acda9bef6cd73bec61c5891e9f81",
+          "sha256": "4aa112fa6b9131df4457367f90d27112a7a2807d1d17b8d2ca1b8b17f9a0c876",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-MD/MD-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2093,7 +2093,7 @@
           "kind": "restrictions",
           "file": "ME-restrictions.zip",
           "bytes": 176240,
-          "sha256": "cf6d7787cb91497722854ebe49744410df232cc3cf4c684df7bf4579ac7013f3",
+          "sha256": "68b8d14deddc31bb73186108f939a9dc2e6e236a5dd0c64c9e828c62ff21e8e8",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-ME/ME-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2139,7 +2139,7 @@
           "kind": "restrictions",
           "file": "MK-restrictions.zip",
           "bytes": 251292,
-          "sha256": "8e7d713a881c2872114f05bfc640ac3c2ab87e1a55b7dff7c723e45066ce7672",
+          "sha256": "16002027c226f4d0ece4ca361e08f6333c1e6644f6b1d93e33a1a8906a9a0561",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-MK/MK-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2185,7 +2185,7 @@
           "kind": "restrictions",
           "file": "MT-restrictions.zip",
           "bytes": 155890,
-          "sha256": "e29fbe538d5d2d9013e8e87a2bdd97e9e32bdd825adfbb706be6a64cc74a3ee3",
+          "sha256": "5ffd10af4a96f63380b76b7b75bd0455869123e99be6c514271ffdce03569991",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-MT/MT-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2231,7 +2231,7 @@
           "kind": "restrictions",
           "file": "NL-restrictions.zip",
           "bytes": 30761918,
-          "sha256": "cab989f95083767bee812e3784c091c384bf6e9437be6389325a5a147d4d5eed",
+          "sha256": "1806c55055efd7437f8499138a8113f26260712fa5046304daed34f1a8f5ba80",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-NL/NL-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2291,7 +2291,7 @@
           "kind": "restrictions",
           "file": "NO-restrictions.zip",
           "bytes": 8104986,
-          "sha256": "8af0ac62909ad6a5ceb4eec669d239f06c6e5bb9dd15396f6ce899d419d3abff",
+          "sha256": "9ddcb8d50b18fbec126210b599e6002524cffc1d2c170fc471b6337f923a85c7",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-NO/NO-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2351,7 +2351,7 @@
           "kind": "restrictions",
           "file": "PL-restrictions.zip",
           "bytes": 20368549,
-          "sha256": "ddb8f9e9cf7e53af35f8cef608df949bda0a4640d450dcf870b6df83f8222c04",
+          "sha256": "206a362a0d1fd1abb600ea5a34fb15173cbce76389173000701eb58b6f7d83b9",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-PL/PL-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2397,7 +2397,7 @@
           "kind": "restrictions",
           "file": "PT-restrictions.zip",
           "bytes": 5070562,
-          "sha256": "d8660a9a4b5c276f0beb65c5ede3f42eefcb25787a786a7d7ecf9c8c1b314e8d",
+          "sha256": "ba936618f7f42428d6fdf92bbeec4d8bcda371b7e02ef718579ae286ced368fa",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-PT/PT-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2441,7 +2441,7 @@
           "kind": "restrictions",
           "file": "RO-restrictions.zip",
           "bytes": 5035707,
-          "sha256": "e3b509e908465da710acad92157b8ee0313991e0269d787c1253d921fa9f3e8c",
+          "sha256": "e09798a5d117bdd77f704ccdea2e8283e5cc5e939212497ed65404f112cf2de2",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-RO/RO-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2489,7 +2489,7 @@
           "kind": "restrictions",
           "file": "RS-restrictions.zip",
           "bytes": 628410,
-          "sha256": "a8b1ef51a5d536d975f8e50f1db6fffa3c2db267579852b86f627f6b018b4f88",
+          "sha256": "60cf77124ecd4d65d98ce887fd147a6006f813399497f11990189f4d6f37b254",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-RS/RS-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2535,7 +2535,7 @@
           "kind": "restrictions",
           "file": "SE-restrictions.zip",
           "bytes": 15550987,
-          "sha256": "495e0df7016d19aecadc045968d8abd18249d06166f1d535b4981dd864c30d22",
+          "sha256": "f9bb28b159f90e49c4d8123c4f4a957828f9fc6d18b6198fe69b825496da9067",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-SE/SE-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2581,7 +2581,7 @@
           "kind": "restrictions",
           "file": "SI-restrictions.zip",
           "bytes": 2216069,
-          "sha256": "72321e19e694a6e3d18d5695124c77b2db193e0b2e3f82561a54158f6685e403",
+          "sha256": "0f690d722a2deefced8a063df9afb144db9f4d1848ce82bf021bd18c2f290877",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-SI/SI-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2627,7 +2627,7 @@
           "kind": "restrictions",
           "file": "SK-restrictions.zip",
           "bytes": 3298553,
-          "sha256": "019311649c02e596b6672463c8cceabb869248c50a1d9cb5704cd17d17131384",
+          "sha256": "c26479124a7d6ff9d4203ed7c4de1d57799d511699e075487bcb9c9ed7560685",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-SK/SK-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2673,7 +2673,7 @@
           "kind": "restrictions",
           "file": "TR-restrictions.zip",
           "bytes": 2822831,
-          "sha256": "9ca728a5a5dba0cef9b0dfee48348af91dc1017a10742168611ba88ddc9303b0",
+          "sha256": "42e4510c39fc398105c9c25d371390bfb625f56dbee4258b9ca6493adb41f558",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-TR/TR-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2719,7 +2719,7 @@
           "kind": "restrictions",
           "file": "UA-restrictions.zip",
           "bytes": 3451446,
-          "sha256": "6caf5e827683e70fd36ba1967ccd0b1d02d3341638bc5fe83c6c0e493dc3651b",
+          "sha256": "ba9d208bcaf6963b64d011b557731559fdef46a89723d7dfbd5f4866020b4706",
           "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-UA/UA-restrictions.zip",
           "osmDate": "2026-11-05"
         }
@@ -2741,7 +2741,7 @@
       "kind": "restrictions",
       "file": "BG-restrictions.zip",
       "bytes": 1464214,
-      "sha256": "7a2f871c38883a70677cb916f3b1a5291735f3d78083715e61983905920a685a",
+      "sha256": "6547732238b5706f4e9a136baf1462e2adbbf36962f98cd7508a4d0b4cb6836c",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-BG/BG-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2749,7 +2749,7 @@
       "kind": "restrictions",
       "file": "AD-restrictions.zip",
       "bytes": 113513,
-      "sha256": "14ad4ce9667a9850e788001d1aa1d5ba984b7802da670b2cf9ccd0b1851f8391",
+      "sha256": "2b885900b94395840e88b2655fecc5736ff33c288419f7b42bbd5b2c7d3eb4d7",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-AD/AD-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2757,7 +2757,7 @@
       "kind": "restrictions",
       "file": "BE-restrictions.zip",
       "bytes": 7502675,
-      "sha256": "1c569dd5aa4310519f031929aaed6fd6fcbcc6229fc1b570847f46c64bd810b5",
+      "sha256": "611f4f465be99d5ed49cd847f8762e344ff201a07a539ec98a3821835b108b5c",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-BE/BE-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2765,7 +2765,7 @@
       "kind": "restrictions",
       "file": "AL-restrictions.zip",
       "bytes": 462247,
-      "sha256": "1c44695e447a12a5b18acec5deec2c36f5edd3384209df6451c7202bc73f97aa",
+      "sha256": "622679788794fb7d2850b6d45a141665a8513f4227192f0d0d6a598283234f58",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-AL/AL-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2773,7 +2773,7 @@
       "kind": "restrictions",
       "file": "PT-restrictions.zip",
       "bytes": 5070562,
-      "sha256": "d8660a9a4b5c276f0beb65c5ede3f42eefcb25787a786a7d7ecf9c8c1b314e8d",
+      "sha256": "ba936618f7f42428d6fdf92bbeec4d8bcda371b7e02ef718579ae286ced368fa",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-PT/PT-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2781,7 +2781,7 @@
       "kind": "restrictions",
       "file": "TR-restrictions.zip",
       "bytes": 2822831,
-      "sha256": "9ca728a5a5dba0cef9b0dfee48348af91dc1017a10742168611ba88ddc9303b0",
+      "sha256": "42e4510c39fc398105c9c25d371390bfb625f56dbee4258b9ca6493adb41f558",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-TR/TR-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2789,7 +2789,7 @@
       "kind": "restrictions",
       "file": "LI-restrictions.zip",
       "bytes": 119929,
-      "sha256": "d9806822c3587585da0a073c6daf78aed6fc91e9051e7b403c2ee35317651ca8",
+      "sha256": "92149b855f4af4d69db6e84c6ddf61db0bed81c3458f8e63e68c4a4e3b53dbbb",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-LI/LI-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2797,7 +2797,7 @@
       "kind": "restrictions",
       "file": "ME-restrictions.zip",
       "bytes": 176240,
-      "sha256": "cf6d7787cb91497722854ebe49744410df232cc3cf4c684df7bf4579ac7013f3",
+      "sha256": "68b8d14deddc31bb73186108f939a9dc2e6e236a5dd0c64c9e828c62ff21e8e8",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-ME/ME-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2805,7 +2805,7 @@
       "kind": "restrictions",
       "file": "DK-restrictions.zip",
       "bytes": 3418122,
-      "sha256": "b4a4b14f66c307c6892e818bebec56f005d46b7321bfbe7ffeece04b2de81af3",
+      "sha256": "7647c6abfc613eea79644907ef75dd474b87bbd66255ffaa4c3955cb5341c066",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-DK/DK-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2813,7 +2813,7 @@
       "kind": "restrictions",
       "file": "LV-restrictions.zip",
       "bytes": 1040337,
-      "sha256": "37e4484597e0a22b9e87dd1a530ed95d6f3bfef71175785182c6df4dd5d1b037",
+      "sha256": "bc494a02ac65e69023fa7a912c2fd40451b6795efbc0cb585df8e8f5d1902bd8",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-LV/LV-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2821,7 +2821,7 @@
       "kind": "restrictions",
       "file": "GB-restrictions.zip",
       "bytes": 39712761,
-      "sha256": "276e11f56ccf0b18d6bee8299d2e5f12e595b16ea2c552360a5fe33f5d3afac0",
+      "sha256": "9d9ffbc85d18fc98dc304f2885e99dd76458665b8131326f5631a125737a596d",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-GB/GB-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2829,7 +2829,7 @@
       "kind": "restrictions",
       "file": "NL-restrictions.zip",
       "bytes": 30761918,
-      "sha256": "cab989f95083767bee812e3784c091c384bf6e9437be6389325a5a147d4d5eed",
+      "sha256": "1806c55055efd7437f8499138a8113f26260712fa5046304daed34f1a8f5ba80",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-NL/NL-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2837,7 +2837,7 @@
       "kind": "restrictions",
       "file": "LU-restrictions.zip",
       "bytes": 953881,
-      "sha256": "ef3410a71778d1665f00e794bf2ff190858e5e83a94537b9277d93253dafba7a",
+      "sha256": "a820c1c41e6dcba1de0aed67b39516d67eaf93dcdd92f787f8e175e6a915f8c2",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-LU/LU-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2845,7 +2845,7 @@
       "kind": "restrictions",
       "file": "HR-restrictions.zip",
       "bytes": 1735550,
-      "sha256": "464b3a9c883bc7d5349a76a8b9ec9fb7d444982e3b09b99ac755fd0a3e4d2e55",
+      "sha256": "a585a3f2bc9b6da698834be7f477d50d9e94b11516ed95859fc359ee233e80b7",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-HR/HR-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2853,7 +2853,7 @@
       "kind": "restrictions",
       "file": "CY-restrictions.zip",
       "bytes": 420379,
-      "sha256": "cefa7ec9efc00e814f25e839e2621b03b94a6abb276d41ad6e571127e32f2133",
+      "sha256": "82b05276f7f013813ba8061e4eec78fa89080598769c7d299f022b6135535525",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-CY/CY-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2861,7 +2861,7 @@
       "kind": "restrictions",
       "file": "SK-restrictions.zip",
       "bytes": 3298553,
-      "sha256": "019311649c02e596b6672463c8cceabb869248c50a1d9cb5704cd17d17131384",
+      "sha256": "c26479124a7d6ff9d4203ed7c4de1d57799d511699e075487bcb9c9ed7560685",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-SK/SK-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2869,7 +2869,7 @@
       "kind": "restrictions",
       "file": "SE-restrictions.zip",
       "bytes": 15550987,
-      "sha256": "495e0df7016d19aecadc045968d8abd18249d06166f1d535b4981dd864c30d22",
+      "sha256": "f9bb28b159f90e49c4d8123c4f4a957828f9fc6d18b6198fe69b825496da9067",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-SE/SE-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2877,7 +2877,7 @@
       "kind": "restrictions",
       "file": "NO-restrictions.zip",
       "bytes": 8104986,
-      "sha256": "8af0ac62909ad6a5ceb4eec669d239f06c6e5bb9dd15396f6ce899d419d3abff",
+      "sha256": "9ddcb8d50b18fbec126210b599e6002524cffc1d2c170fc471b6337f923a85c7",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-NO/NO-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2885,7 +2885,7 @@
       "kind": "restrictions",
       "file": "CH-restrictions.zip",
       "bytes": 12222860,
-      "sha256": "903ecc09331d3deb9a37ffb420bd703dab4a45390135e3af2b09f89f069a3acb",
+      "sha256": "7c803794f4ec19e2c945be7ba0e7f2b77ed5916d579c2541e0460a0b10e2e504",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-CH/CH-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2893,7 +2893,7 @@
       "kind": "restrictions",
       "file": "MC-restrictions.zip",
       "bytes": 23255,
-      "sha256": "9a7d84ec48a29c5591574b437838509e95560fcf83d5518b6051e38b3d204c84",
+      "sha256": "d18ad66113289811bd4bca33d878ba7085f3a6fa3c11733bb34a57c71d5b504c",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-MC/MC-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2901,7 +2901,7 @@
       "kind": "restrictions",
       "file": "SI-restrictions.zip",
       "bytes": 2216069,
-      "sha256": "72321e19e694a6e3d18d5695124c77b2db193e0b2e3f82561a54158f6685e403",
+      "sha256": "0f690d722a2deefced8a063df9afb144db9f4d1848ce82bf021bd18c2f290877",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-SI/SI-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2909,7 +2909,7 @@
       "kind": "restrictions",
       "file": "BY-restrictions.zip",
       "bytes": 2982765,
-      "sha256": "b7b2f39a5c642352cc8c9155a03c655c75b23525b05815228cd4227a9bb6a5a4",
+      "sha256": "8053d61bca23265cc070061e5c67913e4df9b18b3b36556af450431114535bb3",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-BY/BY-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2917,7 +2917,7 @@
       "kind": "restrictions",
       "file": "AT-restrictions.zip",
       "bytes": 10857431,
-      "sha256": "6ba9c08077620a97463b52865f8485120ae692d4e12b9ec194cac316cf62bcd0",
+      "sha256": "bc72dc10cc511fa19347b7e69f895dcefeede207857c3c143c3fe81ea9e17507",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-AT/AT-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2925,7 +2925,7 @@
       "kind": "restrictions",
       "file": "PL-restrictions.zip",
       "bytes": 20368549,
-      "sha256": "ddb8f9e9cf7e53af35f8cef608df949bda0a4640d450dcf870b6df83f8222c04",
+      "sha256": "206a362a0d1fd1abb600ea5a34fb15173cbce76389173000701eb58b6f7d83b9",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-PL/PL-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2933,7 +2933,7 @@
       "kind": "restrictions",
       "file": "EE-restrictions.zip",
       "bytes": 759155,
-      "sha256": "7efc57e869d14351fface9081e80948c8ba0e01ec11c1e0d6049d65d69447bf0",
+      "sha256": "8cf30ea9aabd471be1de27624c8c21701e68064fa9f2894677bdad8e7e71fa13",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-EE/EE-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2941,7 +2941,7 @@
       "kind": "restrictions",
       "file": "RO-restrictions.zip",
       "bytes": 5035707,
-      "sha256": "e3b509e908465da710acad92157b8ee0313991e0269d787c1253d921fa9f3e8c",
+      "sha256": "e09798a5d117bdd77f704ccdea2e8283e5cc5e939212497ed65404f112cf2de2",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-RO/RO-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2949,7 +2949,7 @@
       "kind": "restrictions",
       "file": "ES-restrictions.zip",
       "bytes": 32352152,
-      "sha256": "5b8fe6b9ba24742bd1af4e34ae4230d2b5d83e9c212b97773f4e4fcf30655a5d",
+      "sha256": "1a84204295ebb59179644a59c6cb48dafdb2c4e86e31ce5b05cc473eb11364ed",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-ES/ES-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2957,7 +2957,7 @@
       "kind": "restrictions",
       "file": "HU-restrictions.zip",
       "bytes": 2776215,
-      "sha256": "2d909449e049067f97070510fdd8c4db75d390cdfd18e9baced79ec7bcad463f",
+      "sha256": "37b96fa6f594fa92e449d9ecdd2aeb7192078905c5b7397eb0e7be5386c0eb2f",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-HU/HU-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2965,7 +2965,7 @@
       "kind": "restrictions",
       "file": "MT-restrictions.zip",
       "bytes": 155890,
-      "sha256": "e29fbe538d5d2d9013e8e87a2bdd97e9e32bdd825adfbb706be6a64cc74a3ee3",
+      "sha256": "5ffd10af4a96f63380b76b7b75bd0455869123e99be6c514271ffdce03569991",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-MT/MT-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2973,7 +2973,7 @@
       "kind": "restrictions",
       "file": "LT-restrictions.zip",
       "bytes": 580973,
-      "sha256": "e00c80730afb807d87d26cc3661eeebc0511df8d1ed2fdb96a6f2ba31e5553fe",
+      "sha256": "5d3e3c941d6beeea950254c8b6ddc484065f41101d4f722d0e19cffe468d5113",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-LT/LT-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2981,7 +2981,7 @@
       "kind": "restrictions",
       "file": "CZ-restrictions.zip",
       "bytes": 7656349,
-      "sha256": "a0d6118bcf93eeb0c6f282b1d297b8b2c68f12050729b825299bdf51e912dc3f",
+      "sha256": "074058667b6865e600c28056487101abf6548528604b88d359057ab452b8c56a",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-CZ/CZ-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2989,7 +2989,7 @@
       "kind": "restrictions",
       "file": "FR-restrictions.zip",
       "bytes": 48367791,
-      "sha256": "7154a8efcaaa3d1bcb15f71a68c8c098d20b1b8840d68a111c46fe23f6164c26",
+      "sha256": "66145d397d22f99144d7fdf64a156335c5e7485826910a24ecf9aca048b97e5b",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-FR/FR-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -2997,7 +2997,7 @@
       "kind": "restrictions",
       "file": "RS-restrictions.zip",
       "bytes": 628410,
-      "sha256": "a8b1ef51a5d536d975f8e50f1db6fffa3c2db267579852b86f627f6b018b4f88",
+      "sha256": "60cf77124ecd4d65d98ce887fd147a6006f813399497f11990189f4d6f37b254",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-RS/RS-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -3005,7 +3005,7 @@
       "kind": "restrictions",
       "file": "MK-restrictions.zip",
       "bytes": 251292,
-      "sha256": "8e7d713a881c2872114f05bfc640ac3c2ab87e1a55b7dff7c723e45066ce7672",
+      "sha256": "16002027c226f4d0ece4ca361e08f6333c1e6644f6b1d93e33a1a8906a9a0561",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-MK/MK-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -3013,7 +3013,7 @@
       "kind": "restrictions",
       "file": "GR-restrictions.zip",
       "bytes": 2857262,
-      "sha256": "4631d17c74e1caa1109b6a988acf9b1594619360315e463f944488bd312f31e6",
+      "sha256": "bcf4cd9f9152f62a1afa2d55b3c66399a44d51fe9ca6d5668d38a7663d4d2886",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-GR/GR-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -3021,7 +3021,7 @@
       "kind": "restrictions",
       "file": "DE-restrictions.zip",
       "bytes": 63456608,
-      "sha256": "2a632eea5c9c4b41a5472eec69e22cd2a7cb95cc0a85956d1b332259d9c48017",
+      "sha256": "d9b0634264ea793d902fe96aa367ed02fcf48db2b2e882fcede93695b8aa3028",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-DE/DE-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -3029,7 +3029,7 @@
       "kind": "restrictions",
       "file": "FI-restrictions.zip",
       "bytes": 8015351,
-      "sha256": "b2ed3a5bf6add22e097bbf5dc62429eecbde7c78a28edbb26c30711535b0c17e",
+      "sha256": "77dd99b1144725977eb572c59e27b4b133dd0d6943a261d898b264528467eb78",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-FI/FI-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -3037,7 +3037,7 @@
       "kind": "restrictions",
       "file": "MD-restrictions.zip",
       "bytes": 232163,
-      "sha256": "e520f2b6f7f24a9a705c83bc32a808952468acda9bef6cd73bec61c5891e9f81",
+      "sha256": "4aa112fa6b9131df4457367f90d27112a7a2807d1d17b8d2ca1b8b17f9a0c876",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-MD/MD-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -3045,7 +3045,7 @@
       "kind": "restrictions",
       "file": "IT-restrictions.zip",
       "bytes": 37418644,
-      "sha256": "e1a7d5d206c0fd4d673965313a45777bbe6c6ec6d85801a3b8cb0f4abcaedbb7",
+      "sha256": "117834cf9105f546096d287f22332c4ebeac2f072ef14a3e282d4a98a97438ba",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-IT/IT-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -3053,7 +3053,7 @@
       "kind": "restrictions",
       "file": "XK-restrictions.zip",
       "bytes": 107110,
-      "sha256": "9a88c72cc81a750440087da92a5ac972d420bef6cea8d3cd2f5c1eafc28bd154",
+      "sha256": "e9a6726b4dbe1c192e2671e03eb55e2ce2d5212d183e36c92d02571aa528f4db",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-XK/XK-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -3061,7 +3061,7 @@
       "kind": "restrictions",
       "file": "IS-restrictions.zip",
       "bytes": 505720,
-      "sha256": "33ecfc32a825b6f3745e597e90bf08260708b77db4a2969140ffd76803eadf28",
+      "sha256": "198fea290645ca87ae554b358ffb506e1e21c7743dae29ee71a99fcd7e97d19c",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-IS/IS-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -3069,7 +3069,7 @@
       "kind": "restrictions",
       "file": "IE-restrictions.zip",
       "bytes": 2485290,
-      "sha256": "d1d2a6eb44d873d11b1adb3c3909a4fac9844808075ce8c072a1fd759869a3a6",
+      "sha256": "896123b9b57a42e651faabbe0da9d5033c44460f9be8bd0fcc5fef672177d3bb",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-IE/IE-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -3077,7 +3077,7 @@
       "kind": "restrictions",
       "file": "BA-restrictions.zip",
       "bytes": 624612,
-      "sha256": "a83dbb0d1a0c5d45a32ba91333d12e73df2f7fa1d2c3cd3586bc7e192564595b",
+      "sha256": "b99fcfab8e2ce4ae82664c33ed1598139c505655469c005ebe9e3e6bdb49dd0c",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-BA/BA-restrictions.zip",
       "osmDate": "2026-11-05"
     },
@@ -3085,7 +3085,7 @@
       "kind": "restrictions",
       "file": "UA-restrictions.zip",
       "bytes": 3451446,
-      "sha256": "6caf5e827683e70fd36ba1967ccd0b1d02d3341638bc5fe83c6c0e493dc3651b",
+      "sha256": "ba9d208bcaf6963b64d011b557731559fdef46a89723d7dfbd5f4866020b4706",
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-UA/UA-restrictions.zip",
       "osmDate": "2026-11-05"
     }
