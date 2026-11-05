@@ -34,10 +34,11 @@ def km(a, b):
     return 2 * 6371 * math.asin(math.sqrt(h))
 
 
-def candidates(a, b, start, end, count=4):
-    """Tiles only in B that touch a tile of both: the nearest road of A to such a point lies at A's outer edge, inside B."""
+def candidates(a, b, start, end, count=8):
+    """Tiles only in B that touch a tile of both (the nearest road of A to such a point lies at A's outer edge, inside B),
+    and the shared tiles themselves: an outer tile can be open sea (Koper-Rijeka), a shared one has roads of both packs."""
     shared = a & b
-    found = set()
+    found = set(shared)
     for tile in shared:
         for d_row in (-1, 0, 1):
             for d_col in (-1, 0, 1):
@@ -47,7 +48,7 @@ def candidates(a, b, start, end, count=4):
     points = sorted((centre(t) for t in found), key=lambda c: km(start, c) + km(c, end))
     kept = []
     for p in points:
-        if all(km(p, k) >= 30 for k in kept):
+        if all(km(p, k) >= 20 for k in kept):
             kept.append(p)
         if len(kept) == count:
             break
