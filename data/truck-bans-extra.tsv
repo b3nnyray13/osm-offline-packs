@@ -1,3 +1,7 @@
 # Dated goods-vehicle driving bans that are published each year. Tab separated:
-# country	date	from hour	to hour	minimum tonnes	text	source url
+# country, date, from hour, to hour, minimum tonnes, text, source url
 # A country and year listed here is that year's whole calendar for the country.
+# Local road rules: LOCAL, country, last day, text, source url
+LOCAL	RO	2026-11-15	România: DN7 Valea Oltului, Călimănești–Căinenii Mari, peste 7,5 t, luni–sâmbătă 08:00–17:30, lucrări · NEOFICIAL, verifică	https://nakordoni.eu/en/for_truck_drivers/traffic_bans
+LOCAL	PT	2027-12-31	Portugalia: Porto VCI, camioane cu 3+ axe, zile lucrătoare 07–21 · NEOFICIAL, verifică	https://nakordoni.eu/en/for_truck_drivers/traffic_bans
+LOCAL	HU	2027-12-31	Ungaria: drumurile 42 (Berettyóújfalu–Artánd) și 55 (Szeged–M6), peste 7,5 t, toată ziua · NEOFICIAL, verifică	https://nakordoni.eu/en/for_truck_drivers/traffic_bans
