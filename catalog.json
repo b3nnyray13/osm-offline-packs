@@ -2711,12 +2711,12 @@
     }
   },
   "radars": {
-    "date": "2026-11-04",
-    "cameras": 47468,
-    "hazards": 15617,
+    "date": "2026-11-05",
+    "cameras": 47512,
+    "hazards": 15642,
     "file": "radars-europe.geojson.gz",
-    "bytes": 1152831,
-    "sha256": "1b89aa145bd3b38f50750f7751c7d25d3322e7fde813935d9735693c50fcb7d8",
+    "bytes": 1153286,
+    "sha256": "ad31ba25f4bf85a32b9888a5e528df8578661abbc2b313ba7d62a294bcb5adb4",
     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/radars/radars-europe.geojson.gz",
     "license": "© OpenStreetMap contributors, ODbL 1.0"
   },
@@ -3074,5 +3074,14 @@
     "sha256": "f6b01fa48c0766aaff44fdb0301bcd1be416ca2de776865dd8daf10575de2e89",
     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/radars/access-zones-europe.geojson.gz",
     "license": "© OpenStreetMap contributors, ODbL 1.0"
+  },
+  "legalSpeeds": {
+    "date": "2026-02-04",
+    "countries": 46,
+    "file": "legal-speeds.tsv",
+    "bytes": 20056,
+    "sha256": "ea1c365d89b87807f1e635b85b10bd9e9eba68ecb056260c28c7eed201f80353",
+    "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/radars/legal-speeds.tsv",
+    "license": "Creative Commons Attribution-ShareAlike 2.0 license"
   }
 }
