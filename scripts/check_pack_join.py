@@ -34,25 +34,26 @@ def km(a, b):
     return 2 * 6371 * math.asin(math.sqrt(h))
 
 
-def candidates(a, b, start, end, count=8):
-    """Tiles only in B that touch a tile of both (the nearest road of A to such a point lies at A's outer edge, inside B),
-    and the shared tiles themselves: an outer tile can be open sea (Koper-Rijeka), a shared one has roads of both packs."""
+def candidates(a, b, start, end, count=5):
+    """Tiles only in B that touch a tile of both (the nearest road of A to such a point lies at A's outer edge, inside B), then
+    the shared tiles themselves: an outer tile can be open sea (Koper-Rijeka), a shared one has roads of both packs."""
     shared = a & b
-    found = set(shared)
+    outer = set()
     for tile in shared:
         for d_row in (-1, 0, 1):
             for d_col in (-1, 0, 1):
                 n = tile + d_row * COLS + d_col
                 if n in b and n not in a:
-                    found.add(n)
-    points = sorted((centre(t) for t in found), key=lambda c: km(start, c) + km(c, end))
-    kept = []
-    for p in points:
-        if all(km(p, k) >= 20 for k in kept):
-            kept.append(p)
-        if len(kept) == count:
-            break
-    return len(shared), kept
+                    outer.add(n)
+    def pick(tiles):
+        kept = []
+        for p in sorted((centre(t) for t in tiles), key=lambda c: km(start, c) + km(c, end)):
+            if all(km(p, k) >= 20 for k in kept):
+                kept.append(p)
+            if len(kept) == count:
+                break
+        return kept
+    return len(shared), pick(outer) + pick(shared)
 
 
 def route(actor, start, end):
