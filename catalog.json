@@ -3065,5 +3065,14 @@
       "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/restrictions-BA/BA-restrictions.zip",
       "osmDate": "2026-11-03"
     }
+  },
+  "accessZones": {
+    "date": "2026-11-05",
+    "zones": 516,
+    "file": "access-zones-europe.geojson.gz",
+    "bytes": 497556,
+    "sha256": "f6b01fa48c0766aaff44fdb0301bcd1be416ca2de776865dd8daf10575de2e89",
+    "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/radars/access-zones-europe.geojson.gz",
+    "license": "© OpenStreetMap contributors, ODbL 1.0"
   }
 }
