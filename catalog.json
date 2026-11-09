@@ -3091,11 +3091,11 @@
     }
   },
   "accessZones": {
-    "date": "2026-11-05",
-    "zones": 530,
+    "date": "2026-11-09",
+    "zones": 537,
     "file": "access-zones-europe.geojson.gz",
-    "bytes": 549200,
-    "sha256": "0261ee6308a43e8f624e22e5664a8cf50cceda012056833524daf8e1c1c92e82",
+    "bytes": 551491,
+    "sha256": "02881aef7680e94b29cc3a8ad9e0a74a889635a39a86ee7b0755adc7ba419210",
     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/radars/access-zones-europe.geojson.gz",
     "license": "© OpenStreetMap contributors, ODbL 1.0"
   },
