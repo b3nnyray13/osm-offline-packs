@@ -2727,12 +2727,12 @@
     }
   },
   "radars": {
-    "date": "2026-11-15",
-    "cameras": 47594,
-    "hazards": 15937,
+    "date": "2026-11-16",
+    "cameras": 47592,
+    "hazards": 15966,
     "file": "radars-europe.geojson.gz",
-    "bytes": 1159434,
-    "sha256": "c5e7561660ea5ed364808489efd11ea6ea9f8d092a2d31ea57b6457ffb09f32d",
+    "bytes": 1160527,
+    "sha256": "71d966e6eb7179790a373b030417aeb3ad7f73bd6958ddfaf94a9db4e64a0ad7",
     "url": "https://github.com/b3nnyray13/osm-offline-packs/releases/download/radars/radars-europe.geojson.gz",
     "license": "© OpenStreetMap contributors, ODbL 1.0"
   },
