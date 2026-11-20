@@ -1,0 +1,26 @@
+# Public OSM data only. Signing credentials, personal files and device logs
+# must never be included with map/routing datasets.
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.key
+*.pem
+*.env
+.env*
+**/secrets/**
+**/signing/**
+**/Pin Gps*
+**/app-pin.txt
+**/owner-pin.json
+**/*.apk
+**/*.aab
+**/*-private.zip
+**/*-backup.zip
+**/local.properties
+**/crash-log.txt
+__pycache__/
+*.py[cod]
+work/
+out/
+sources/
