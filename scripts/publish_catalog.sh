@@ -10,6 +10,7 @@ while [ "$i" -lt 8 ]; do
   i=$((i + 1))
   git fetch -q origin main && git reset -q --hard origin/main || { sleep $((i * 10)); continue; }
   python scripts/update_catalog.py "$1" || exit 1
+  python scripts/check_public_metadata.py || exit 1
   git add catalog.json
   git diff --cached --quiet && exit 0
   git commit -q -m "$2"
