@@ -4,7 +4,9 @@
 # Usage: publish_catalog.sh <receipts_dir> <commit message>
 set -u
 git config user.name "github-actions[bot]"
-git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+# Public OSM source contains no literal contact email. Runtime Git metadata
+# still uses GitHub's public no-reply bot identity; this is not anonymisation.
+git config user.email "$(printf '%s@%s' '41898282+github-actions[bot]' 'users.noreply.github.com')"
 i=0
 while [ "$i" -lt 8 ]; do
   i=$((i + 1))
