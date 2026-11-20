@@ -9,7 +9,7 @@ on:
     paths: [.github/workflows/restrictions.yml]
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: daily-restrictions
@@ -17,6 +17,8 @@ concurrency:
 
 jobs:
   build:
+    permissions:
+      contents: write  # Publishing restriction ZIP release assets only
     runs-on: ubuntu-latest
     timeout-minutes: 350
     strategy:
@@ -102,6 +104,8 @@ jobs:
           retention-days: 3
 
   catalog:
+    permissions:
+      contents: write  # Updating the public catalog only
     needs: build
     if: always()
     runs-on: ubuntu-latest

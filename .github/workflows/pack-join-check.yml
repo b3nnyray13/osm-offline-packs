@@ -6,6 +6,9 @@ on:
     branches: [main]
     paths: [scripts/check_pack_join.py, .github/workflows/pack-join-check.yml]
 
+permissions:
+  contents: read
+
 jobs:
   check:
     runs-on: ubuntu-latest

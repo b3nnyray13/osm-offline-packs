@@ -9,7 +9,7 @@ on:
     paths: [scripts/build_access_zones.py, .github/workflows/zones.yml]
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: weekly-zones
@@ -17,6 +17,8 @@ concurrency:
 
 jobs:
   zones:
+    permissions:
+      contents: write  # Publishes public access zone release assets
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
